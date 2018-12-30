@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2018-12-30_19-17-48" tag="">
+  <assembly name="AsyncEnumeration.Abstractions">
+    <class name="AsyncEnumeration.Abstractions.AsyncProviderUtilities" coveredlines="2" coverablelines="3" totallines="89" coveredbranches="9" totalbranches="10" />
+    <class name="AsyncEnumeration.Abstractions.OfTypeInvoker`1" coveredlines="6" coverablelines="6" totallines="87" coveredbranches="2" totalbranches="4" />
+    <class name="AsyncEnumeration.EmptyAsync`1" coveredlines="0" coverablelines="8" totallines="204" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.EmptyAsyncProvider" coveredlines="0" coverablelines="51" totallines="204" coveredbranches="0" totalbranches="2" />
+    <class name="E_AsyncEnumeration" coveredlines="64" coverablelines="128" totallines="1690" coveredbranches="78" totalbranches="186" />
+  </assembly>
+  <assembly name="AsyncEnumeration.Implementation.Enumerable">
+    <class name="AsyncEnumeration.AsyncEnumerationExtensions" coveredlines="2" coverablelines="5" totallines="327" coveredbranches="4" totalbranches="10" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.AbstractAsyncEnumerator`1" coveredlines="43" coverablelines="50" totallines="344" coveredbranches="27" totalbranches="40" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.ArrayEnumerator`1" coveredlines="8" coverablelines="8" totallines="124" coveredbranches="2" totalbranches="2" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.AsyncEnumerable" coveredlines="33" coverablelines="97" totallines="307" coveredbranches="2" totalbranches="16" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.AsyncEnumerableExclusive`1" coveredlines="0" coverablelines="19" totallines="344" coveredbranches="0" totalbranches="6" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.AsyncEnumerableFunctionalWrapper`1" coveredlines="0" coverablelines="9" totallines="151" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.AsyncEnumerableFunctionalWrapper`2" coveredlines="11" coverablelines="11" totallines="151" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.AsyncEnumerationFactory" coveredlines="16" coverablelines="19" totallines="372" coveredbranches="1" totalbranches="2" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.AsyncEnumerator`1" coveredlines="2" coverablelines="2" totallines="344" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.AsyncEnumeratorWrapper`1" coveredlines="8" coverablelines="8" totallines="108" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.AsyncEnumeratorWrapperInitializer" coveredlines="4" coverablelines="4" totallines="108" coveredbranches="4" totalbranches="4" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.AsyncSequentialOnlyEnumerable`1" coveredlines="9" coverablelines="10" totallines="344" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.AsyncSingletonEnumerator`1" coveredlines="0" coverablelines="16" totallines="203" coveredbranches="0" totalbranches="8" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.SequentialCurrentInfoFactory" coveredlines="10" coverablelines="10" totallines="372" coveredbranches="2" totalbranches="4" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.SequentialEnumerationStartInfo`1" coveredlines="5" coverablelines="5" totallines="372" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.SequentialEnumeratorCurrentInfo`1" coveredlines="9" coverablelines="9" totallines="344" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.SequentialEnumeratorCurrentInfoWithFloat32" coveredlines="0" coverablelines="4" totallines="344" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.SequentialEnumeratorCurrentInfoWithFloat64" coveredlines="0" coverablelines="4" totallines="344" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.SequentialEnumeratorCurrentInfoWithInt32" coveredlines="4" coverablelines="4" totallines="344" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.SequentialEnumeratorCurrentInfoWithInt64" coveredlines="0" coverablelines="4" totallines="344" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.SequentialEnumeratorCurrentInfoWithObject`1" coveredlines="0" coverablelines="4" totallines="344" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.SingletonEnumerator`1" coveredlines="0" coverablelines="6" totallines="203" coveredbranches="0" totalbranches="2" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.StatefulAsyncEnumerableWrapper`1" coveredlines="9" coverablelines="9" totallines="108" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.StatelessAsyncEnumerableWrapper`1" coveredlines="9" coverablelines="9" totallines="108" coveredbranches="0" totalbranches="0" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.SynchronousEnumerableEnumerator`1" coveredlines="10" coverablelines="10" totallines="124" coveredbranches="8" totalbranches="8" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.ValueTaskAsyncSingletonEnumerator`1" coveredlines="0" coverablelines="17" totallines="203" coveredbranches="0" totalbranches="8" />
+    <class name="AsyncEnumeration.Implementation.Enumerable.WrappingEnumerationStartInfo`1" coveredlines="7" coverablelines="7" totallines="372" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="AsyncEnumeration.Implementation.Provider">
+    <class name="AsyncEnumeration.Implementation.Provider.AsyncSelectEnumerator`2" coveredlines="25" coverablelines="25" totallines="151" coveredbranches="13" totalbranches="16" />
+    <class name="AsyncEnumeration.Implementation.Provider.AsyncWhereEnumerator`1" coveredlines="25" coverablelines="25" totallines="159" coveredbranches="15" totalbranches="18" />
+    <class name="AsyncEnumeration.Implementation.Provider.DefaultAsyncProvider" coveredlines="229" coverablelines="230" totallines="1657" coveredbranches="88" totalbranches="128" />
+    <class name="AsyncEnumeration.Implementation.Provider.OfTypeEnumerator`2" coveredlines="16" coverablelines="16" totallines="98" coveredbranches="8" totalbranches="8" />
+    <class name="AsyncEnumeration.Implementation.Provider.SelectEnumerator`2" coveredlines="11" coverablelines="11" totallines="151" coveredbranches="2" totalbranches="2" />
+    <class name="AsyncEnumeration.Implementation.Provider.SelectManyAsyncEnumerator`2" coveredlines="26" coverablelines="26" totallines="389" coveredbranches="18" totalbranches="20" />
+    <class name="AsyncEnumeration.Implementation.Provider.SelectManyAsyncEnumeratorAsync`2" coveredlines="25" coverablelines="25" totallines="389" coveredbranches="18" totalbranches="20" />
+    <class name="AsyncEnumeration.Implementation.Provider.SelectManyEnumeratorAsync`2" coveredlines="35" coverablelines="35" totallines="389" coveredbranches="25" totalbranches="30" />
+    <class name="AsyncEnumeration.Implementation.Provider.SelectManyEnumeratorSync`2" coveredlines="28" coverablelines="29" totallines="389" coveredbranches="20" totalbranches="22" />
+    <class name="AsyncEnumeration.Implementation.Provider.TakeEnumerator32`1" coveredlines="14" coverablelines="14" totallines="274" coveredbranches="6" totalbranches="6" />
+    <class name="AsyncEnumeration.Implementation.Provider.TakeEnumerator64`1" coveredlines="14" coverablelines="14" totallines="274" coveredbranches="6" totalbranches="6" />
+    <class name="AsyncEnumeration.Implementation.Provider.TakeWhileEnumeratorAsync`1" coveredlines="29" coverablelines="29" totallines="274" coveredbranches="20" totalbranches="22" />
+    <class name="AsyncEnumeration.Implementation.Provider.TakeWhileEnumeratorSync`1" coveredlines="19" coverablelines="20" totallines="274" coveredbranches="7" totalbranches="8" />
+    <class name="AsyncEnumeration.Implementation.Provider.WhereEnumerator`1" coveredlines="15" coverablelines="15" totallines="159" coveredbranches="6" totalbranches="6" />
+  </assembly>
+</coverage>
