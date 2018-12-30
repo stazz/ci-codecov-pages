@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2018-12-30_19-57-54" tag="">
+  <assembly name="CBAM.Abstractions">
+    <class name="E_CBAM" coveredlines="6" coverablelines="9" totallines="221" coveredbranches="1" totalbranches="2" />
+  </assembly>
+  <assembly name="CBAM.Abstractions.Implementation">
+    <class name="CBAM.Abstractions.Implementation.ConnectionAcquireInfoImpl`3" coveredlines="7" coverablelines="8" totallines="273" coveredbranches="5" totalbranches="6" />
+    <class name="CBAM.Abstractions.Implementation.ConnectionFactoryStream`4" coveredlines="2" coverablelines="4" totallines="273" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.Abstractions.Implementation.ConnectionFunctionalitySU`5" coveredlines="77" coverablelines="86" totallines="441" coveredbranches="43" totalbranches="54" />
+    <class name="CBAM.Abstractions.Implementation.ConnectionImpl`1" coveredlines="6" coverablelines="6" totallines="429" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.Abstractions.Implementation.ConnectionImpl`7" coveredlines="15" coverablelines="35" totallines="429" coveredbranches="2" totalbranches="2" />
+    <class name="CBAM.Abstractions.Implementation.CurrentlyInUse" coveredlines="6" coverablelines="6" totallines="441" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.Abstractions.Implementation.DefaultConnectionFactory`4" coveredlines="10" coverablelines="16" totallines="273" coveredbranches="12" totalbranches="12" />
+    <class name="CBAM.Abstractions.Implementation.DefaultConnectionFunctionality`5" coveredlines="9" coverablelines="9" totallines="429" coveredbranches="1" totalbranches="2" />
+    <class name="CBAM.Abstractions.Implementation.PooledConnectionFunctionality`5" coveredlines="9" coverablelines="10" totallines="429" coveredbranches="1" totalbranches="2" />
+    <class name="CBAM.Abstractions.Implementation.ReservedForStatement" coveredlines="12" coverablelines="12" totallines="441" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.Abstractions.Implementation.StatelessConnectionAcquireInfo`3" coveredlines="3" coverablelines="3" totallines="273" coveredbranches="0" totalbranches="0" />
+    <class name="E_CBAM" coveredlines="0" coverablelines="7" totallines="441" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="CBAM.Abstractions.Implementation.NetworkStream">
+    <class name="CBAM.Abstractions.Implementation.NetworkStream.CBAMExtensions" coveredlines="1" coverablelines="1" totallines="291" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.Abstractions.Implementation.NetworkStream.ConnectionCreationParametersAndPublicTypeBinder`7" coveredlines="36" coverablelines="36" totallines="291" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.Abstractions.Implementation.NetworkStream.ConnectionCreationParametersTypeBinder`6" coveredlines="8" coverablelines="8" totallines="291" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.Abstractions.Implementation.NetworkStream.DelegatingStatefulProtocolConnectionFactory`10" coveredlines="9" coverablelines="10" totallines="397" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.Abstractions.Implementation.NetworkStream.DelegatingStatelessProtocolConnectionFactory`9" coveredlines="9" coverablelines="10" totallines="350" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.Abstractions.Implementation.NetworkStream.StatefulProtocolConnectionFactory`10" coveredlines="43" coverablelines="51" totallines="397" coveredbranches="9" totalbranches="20" />
+    <class name="CBAM.Abstractions.Implementation.NetworkStream.StatelessProtocolConnectionFactory`9" coveredlines="36" coverablelines="41" totallines="350" coveredbranches="8" totalbranches="20" />
+  </assembly>
+  <assembly name="CBAM.Abstractions.Implementation.Tabular">
+    <class name="CBAM.Abstractions.Implementation.Tabular.DataColumnSUKSWithConnectionFunctionality`1" coveredlines="8" coverablelines="8" totallines="111" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="CBAM.HTTP">
+    <class name="CBAM.HTTP.EmptyHTTPResponseContent" coveredlines="0" coverablelines="7" totallines="762" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.HTTPFactory" coveredlines="24" coverablelines="36" totallines="762" coveredbranches="2" totalbranches="6" />
+    <class name="CBAM.HTTP.HTTPRequestContentFromString" coveredlines="0" coverablelines="12" totallines="387" coveredbranches="0" totalbranches="6" />
+    <class name="CBAM.HTTP.HTTPRequestImpl" coveredlines="8" coverablelines="8" totallines="387" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.HTTPRequestInfo`1" coveredlines="5" coverablelines="5" totallines="251" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.HTTPResponseContentFromStream_Chunked" coveredlines="0" coverablelines="71" totallines="387" coveredbranches="0" totalbranches="38" />
+    <class name="CBAM.HTTP.HTTPResponseContentFromStream_KnownLength" coveredlines="39" coverablelines="47" totallines="387" coveredbranches="14" totalbranches="15" />
+    <class name="CBAM.HTTP.HTTPResponseImpl" coveredlines="27" coverablelines="27" totallines="387" coveredbranches="4" totalbranches="4" />
+    <class name="CBAM.HTTP.HTTPResponseInfo`1" coveredlines="4" coverablelines="5" totallines="251" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.HTTPTextualResponseInfo" coveredlines="20" coverablelines="25" totallines="251" coveredbranches="8" totalbranches="12" />
+    <class name="CBAM.HTTP.HTTPUtils" coveredlines="11" coverablelines="11" totallines="762" coveredbranches="4" totalbranches="4" />
+    <class name="E_CBAM" coveredlines="37" coverablelines="80" totallines="1013" coveredbranches="13" totalbranches="38" />
+  </assembly>
+  <assembly name="CBAM.HTTP.Implementation">
+    <class name="CBAM.HTTP.HTTPNetworkCreationInfo" coveredlines="2" coverablelines="2" totallines="140" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.Implementation.AbstractIOState" coveredlines="4" coverablelines="4" totallines="521" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.Implementation.ClientProtocolIOState" coveredlines="18" coverablelines="18" totallines="521" coveredbranches="3" totalbranches="6" />
+    <class name="CBAM.HTTP.Implementation.HTTPConnectionFunctionalityImpl`1" coveredlines="38" coverablelines="45" totallines="521" coveredbranches="8" totalbranches="21" />
+    <class name="CBAM.HTTP.Implementation.HTTPConnectionImpl`1" coveredlines="2" coverablelines="3" totallines="521" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.Implementation.HTTPConnectionVendorImpl`1" coveredlines="4" coverablelines="4" totallines="521" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.Implementation.HTTPNetworkConnectionPoolProvider`1" coveredlines="32" coverablelines="45" totallines="209" coveredbranches="0" totalbranches="8" />
+    <class name="CBAM.HTTP.Implementation.HTTPSimpleConfigurationPoolProvider`1" coveredlines="1" coverablelines="10" totallines="209" coveredbranches="0" totalbranches="4" />
+    <class name="CBAM.HTTP.Implementation.HTTPStatementImpl`1" coveredlines="10" coverablelines="14" totallines="122" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.Implementation.HTTPStatementInformationImpl`1" coveredlines="11" coverablelines="11" totallines="122" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.Implementation.HTTPWriterImpl" coveredlines="0" coverablelines="9" totallines="521" coveredbranches="0" totalbranches="2" />
+    <class name="CBAM.HTTP.Implementation.ReadState" coveredlines="4" coverablelines="4" totallines="521" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.Implementation.Reference`1" coveredlines="1" coverablelines="1" totallines="122" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.Implementation.WriteState" coveredlines="2" coverablelines="2" totallines="521" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.HTTP.SimpleHTTPConfiguration" coveredlines="3" coverablelines="3" totallines="140" coveredbranches="0" totalbranches="0" />
+    <class name="E_CBAM" coveredlines="122" coverablelines="149" totallines="870" coveredbranches="65" totalbranches="79" />
+  </assembly>
+  <assembly name="CBAM.NATS">
+    <class name="CBAM.NATS.AfterPublishSentArgs" coveredlines="0" coverablelines="9" totallines="215" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.AfterSubscriptionSentArgs" coveredlines="0" coverablelines="12" totallines="215" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.NATSException" coveredlines="0" coverablelines="2" totallines="14" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.NATSPublishData" coveredlines="11" coverablelines="11" totallines="195" coveredbranches="3" totalbranches="6" />
+    <class name="E_CBAM" coveredlines="35" coverablelines="134" totallines="478" coveredbranches="6" totalbranches="12" />
+  </assembly>
+  <assembly name="CBAM.NATS.Implementation">
+    <class name="CBAM.NATS.Implementation.ClientInformation" coveredlines="10" coverablelines="10" totallines="835" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.ClientProtocol" coveredlines="292" coverablelines="338" totallines="835" coveredbranches="150" totalbranches="171" />
+    <class name="CBAM.NATS.Implementation.ClientProtocolConsts" coveredlines="7" coverablelines="7" totallines="835" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.ClientProtocolPoolInfo" coveredlines="7" coverablelines="9" totallines="62" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.NATSConnectionImpl" coveredlines="19" coverablelines="108" totallines="594" coveredbranches="2" totalbranches="2" />
+    <class name="CBAM.NATS.Implementation.NATSConnectionPoolProvider" coveredlines="87" coverablelines="99" totallines="156" coveredbranches="0" totalbranches="4" />
+    <class name="CBAM.NATS.Implementation.NATSConnectionVendorFunctionalityImpl" coveredlines="20" coverablelines="20" totallines="594" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.NATSMessageImpl" coveredlines="22" coverablelines="32" totallines="101" coveredbranches="7" totalbranches="16" />
+    <class name="CBAM.NATS.Implementation.NATSPublishCompletedImpl" coveredlines="0" coverablelines="3" totallines="101" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.NATSPublishConnectionFunctionality" coveredlines="41" coverablelines="41" totallines="594" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.NATSPublishStatementImpl" coveredlines="8" coverablelines="11" totallines="199" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.NATSPublishStatementInformationImpl" coveredlines="6" coverablelines="6" totallines="199" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.NATSStatementImpl" coveredlines="6" coverablelines="7" totallines="199" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.NATSStatementInformationImpl" coveredlines="6" coverablelines="7" totallines="199" coveredbranches="1" totalbranches="2" />
+    <class name="CBAM.NATS.Implementation.NATSSubscribeConnectionFunctionality" coveredlines="51" coverablelines="51" totallines="594" coveredbranches="1" totalbranches="2" />
+    <class name="CBAM.NATS.Implementation.NATSSubscribeStatementImpl" coveredlines="6" coverablelines="13" totallines="199" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.NATSSubscribeStatementInformationImpl" coveredlines="8" coverablelines="8" totallines="199" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.Reference`1" coveredlines="1" coverablelines="1" totallines="199" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.Implementation.ServerInformation" coveredlines="8" coverablelines="9" totallines="835" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.NATSAuthenticationConfiguration" coveredlines="1" coverablelines="10" totallines="100" coveredbranches="0" totalbranches="8" />
+    <class name="CBAM.NATS.NATSConnectionCreationInfo" coveredlines="2" coverablelines="2" totallines="100" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.NATS.NATSProtocolConfiguration" coveredlines="6" coverablelines="6" totallines="100" coveredbranches="0" totalbranches="0" />
+    <class name="UtilPack.UtilPackExtensions" coveredlines="6" coverablelines="7" totallines="199" coveredbranches="8" totalbranches="10" />
+  </assembly>
+  <assembly name="CBAM.SQL">
+    <class name="CBAM.SQL.CBAMExtensions" coveredlines="0" coverablelines="42" totallines="723" coveredbranches="0" totalbranches="30" />
+    <class name="CBAM.SQL.SQLException" coveredlines="0" coverablelines="2" totallines="41" coveredbranches="0" totalbranches="0" />
+    <class name="E_CBAM" coveredlines="24" coverablelines="117" totallines="901" coveredbranches="15" totalbranches="103" />
+  </assembly>
+  <assembly name="CBAM.SQL.Implementation">
+    <class name="CBAM.SQL.Implementation.AbstractCommandExecutionResult" coveredlines="7" coverablelines="9" totallines="407" coveredbranches="0" totalbranches="4" />
+    <class name="CBAM.SQL.Implementation.BatchCommandExecutionResultImpl" coveredlines="3" coverablelines="4" totallines="407" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.Implementation.CBAMExtensions" coveredlines="8" coverablelines="11" totallines="329" coveredbranches="5" totalbranches="14" />
+    <class name="CBAM.SQL.Implementation.DatabaseMetadataImpl" coveredlines="7" coverablelines="52" totallines="1249" coveredbranches="0" totalbranches="6" />
+    <class name="CBAM.SQL.Implementation.DefaultConnectionVendorFunctionality" coveredlines="15" coverablelines="18" totallines="407" coveredbranches="15" totalbranches="18" />
+    <class name="CBAM.SQL.Implementation.DefaultDatabaseMetadataSQLCache" coveredlines="15" coverablelines="21" totallines="1249" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.Implementation.DefaultOrdinalSQLCache" coveredlines="7" coverablelines="13" totallines="1249" coveredbranches="0" totalbranches="4" />
+    <class name="CBAM.SQL.Implementation.DefaultOrdinalSQLCache`1" coveredlines="9" coverablelines="15" totallines="1249" coveredbranches="1" totalbranches="6" />
+    <class name="CBAM.SQL.Implementation.SingleCommandExecutionResultImpl" coveredlines="3" coverablelines="4" totallines="407" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.Implementation.SQLCachingDatabaseMetadataImpl" coveredlines="3" coverablelines="31" totallines="1249" coveredbranches="0" totalbranches="28" />
+    <class name="CBAM.SQL.Implementation.SQLConnectionFunctionalitySU`1" coveredlines="11" coverablelines="11" totallines="104" coveredbranches="7" totalbranches="8" />
+    <class name="CBAM.SQL.Implementation.SQLConnectionImpl`2" coveredlines="3" coverablelines="30" totallines="407" coveredbranches="0" totalbranches="16" />
+    <class name="CBAM.SQL.Implementation.SQLDataRowImpl" coveredlines="3" coverablelines="4" totallines="57" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.Implementation.StatementBuilderImpl`1" coveredlines="11" coverablelines="15" totallines="329" coveredbranches="6" totalbranches="10" />
+    <class name="CBAM.SQL.Implementation.StatementBuilderInformationImpl`2" coveredlines="16" coverablelines="16" totallines="329" coveredbranches="1" totalbranches="2" />
+    <class name="CBAM.SQL.Implementation.StatementParameterImpl" coveredlines="9" coverablelines="9" totallines="329" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="CBAM.SQL.PostgreSQL">
+    <class name="CBAM.SQL.PostgreSQL.BackendABIHelper" coveredlines="12" coverablelines="12" totallines="992" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.BackendSizeInfo" coveredlines="5" coverablelines="5" totallines="992" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.CBAMExtensions" coveredlines="3" coverablelines="3" totallines="992" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.CommonPgSQLTypeFunctionalityInfo" coveredlines="0" coverablelines="5" totallines="992" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.DefaultPgSQLTypeFunctionality`1" coveredlines="100" coverablelines="110" totallines="992" coveredbranches="31" totalbranches="37" />
+    <class name="CBAM.SQL.PostgreSQL.NotificationEventArgs" coveredlines="8" coverablelines="8" totallines="156" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLDate" coveredlines="46" coverablelines="195" totallines="3985" coveredbranches="24" totalbranches="118" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLError" coveredlines="0" coverablelines="63" totallines="286" coveredbranches="0" totalbranches="6" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLException" coveredlines="0" coverablelines="10" totallines="286" coveredbranches="0" totalbranches="12" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLInterval" coveredlines="0" coverablelines="186" totallines="3985" coveredbranches="0" totalbranches="100" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLTime" coveredlines="20" coverablelines="119" totallines="3985" coveredbranches="6" totalbranches="46" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLTimestamp" coveredlines="17" coverablelines="157" totallines="3985" coveredbranches="4" totalbranches="86" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLTimestampTZ" coveredlines="0" coverablelines="168" totallines="3985" coveredbranches="0" totalbranches="102" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLTimeTZ" coveredlines="0" coverablelines="103" totallines="3985" coveredbranches="0" totalbranches="24" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLTimeZone" coveredlines="0" coverablelines="110" totallines="3985" coveredbranches="0" totalbranches="52" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLTypeDatabaseData" coveredlines="15" coverablelines="15" totallines="992" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.TypeFunctionalityCreationResult" coveredlines="5" coverablelines="5" totallines="992" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.TypeFunctionalityInformation" coveredlines="12" coverablelines="12" totallines="992" coveredbranches="0" totalbranches="0" />
+    <class name="E_CBAM" coveredlines="16" coverablelines="44" totallines="5263" coveredbranches="12" totalbranches="43" />
+  </assembly>
+  <assembly name="CBAM.SQL.PostgreSQL.Implementation">
+    <class name="CBAM.SQL.PostgreSQL.Implementation.AuthenticationResponse" coveredlines="7" coverablelines="7" totallines="648" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.BackendKeyData" coveredlines="7" coverablelines="7" totallines="648" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.BackendMessageObject" coveredlines="47" coverablelines="62" totallines="648" coveredbranches="27" totalbranches="27" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.BindMessage" coveredlines="87" coverablelines="92" totallines="784" coveredbranches="43" totalbranches="50" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.CBAMExtensions" coveredlines="6" coverablelines="6" totallines="784" coveredbranches="2" totalbranches="2" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.CloseMessage" coveredlines="10" coverablelines="12" totallines="784" coveredbranches="1" totalbranches="2" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.CommandComplete" coveredlines="37" coverablelines="39" totallines="648" coveredbranches="52" totalbranches="56" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.CopyDataFrontEndMessage" coveredlines="0" coverablelines="8" totallines="784" coveredbranches="0" totalbranches="2" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.CopyDataMessage" coveredlines="0" coverablelines="4" totallines="648" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.CopyInOrOutMessage" coveredlines="0" coverablelines="11" totallines="648" coveredbranches="0" totalbranches="4" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.DataRowObject" coveredlines="27" coverablelines="27" totallines="648" coveredbranches="8" totalbranches="10" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.DescribeMessage" coveredlines="10" coverablelines="12" totallines="784" coveredbranches="2" totalbranches="2" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.E_TODO" coveredlines="1" coverablelines="1" totallines="1353" coveredbranches="1" totalbranches="2" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.ExecuteMessage" coveredlines="10" coverablelines="11" totallines="784" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.FrontEndMessage" coveredlines="7" coverablelines="10" totallines="784" coveredbranches="7" totalbranches="7" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.FrontEndMessageWithCode" coveredlines="11" coverablelines="12" totallines="784" coveredbranches="3" totalbranches="3" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.FrontEndMessageWithNoContent" coveredlines="8" coverablelines="8" totallines="784" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.FrontEndMessageWithSingleBody" coveredlines="8" coverablelines="8" totallines="784" coveredbranches="1" totalbranches="1" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.MessageWithNoContents" coveredlines="8" coverablelines="8" totallines="648" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.NotificationMessage" coveredlines="9" coverablelines="9" totallines="648" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.ParameterDescription" coveredlines="9" coverablelines="9" totallines="648" coveredbranches="2" totalbranches="2" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.ParameterStatus" coveredlines="7" coverablelines="7" totallines="648" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.ParseMessage" coveredlines="31" coverablelines="31" totallines="784" coveredbranches="11" totalbranches="11" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.Parser" coveredlines="39" coverablelines="171" totallines="478" coveredbranches="57" totalbranches="245" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PasswordMessage" coveredlines="7" coverablelines="7" totallines="784" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PgSQLConnectionAcquireInfo" coveredlines="3" coverablelines="3" totallines="41" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PgSQLConnectionImpl" coveredlines="6" coverablelines="41" totallines="342" coveredbranches="0" totalbranches="21" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PgSQLConnectionVendorFunctionalityImpl" coveredlines="27" coverablelines="40" totallines="342" coveredbranches="15" totalbranches="26" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PgSQLDatabaseMetaData" coveredlines="14" coverablelines="26" totallines="110" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PgSQLDataColumnMetaDataImpl" coveredlines="10" coverablelines="11" totallines="101" coveredbranches="4" totalbranches="4" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PgSQLDataRowColumn" coveredlines="11" coverablelines="11" totallines="101" coveredbranches="2" totalbranches="2" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PgSQLDataRowMetaDataImpl" coveredlines="2" coverablelines="2" totallines="101" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PgSQLErrorObject" coveredlines="0" coverablelines="78" totallines="648" coveredbranches="0" totalbranches="40" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PgSQLStatementBuilder" coveredlines="6" coverablelines="6" totallines="81" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PgSQLStatementBuilderInformation" coveredlines="4" coverablelines="4" totallines="81" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PgSQLTypeFunctionalityForArrays" coveredlines="406" coverablelines="456" totallines="937" coveredbranches="209" totalbranches="249" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.PostgreSQLProtocol" coveredlines="1307" coverablelines="1415" totallines="2368" coveredbranches="501" totalbranches="677" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.QueryMessage" coveredlines="7" coverablelines="7" totallines="784" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.ReadyForQuery" coveredlines="4" coverablelines="4" totallines="648" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.RowDescription" coveredlines="19" coverablelines="19" totallines="648" coveredbranches="2" totalbranches="2" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.SSLRequestMessage" coveredlines="10" coverablelines="10" totallines="784" coveredbranches="1" totalbranches="1" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.StartupMessage" coveredlines="22" coverablelines="22" totallines="784" coveredbranches="9" totalbranches="10" />
+    <class name="CBAM.SQL.PostgreSQL.Implementation.TypeRegistryImpl" coveredlines="76" coverablelines="79" totallines="163" coveredbranches="35" totalbranches="45" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLAuthenticationConfiguration" coveredlines="8" coverablelines="8" totallines="308" coveredbranches="4" totalbranches="4" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLConnectionCreationInfo" coveredlines="35" coverablelines="35" totallines="308" coveredbranches="2" totalbranches="2" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLConnectionPoolProvider" coveredlines="45" coverablelines="57" totallines="149" coveredbranches="0" totalbranches="4" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLDatabaseConfiguration" coveredlines="2" coverablelines="2" totallines="308" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLInitializationConfiguration" coveredlines="1" coverablelines="1" totallines="308" coveredbranches="0" totalbranches="0" />
+    <class name="CBAM.SQL.PostgreSQL.PgSQLProtocolConfiguration" coveredlines="3" coverablelines="3" totallines="308" coveredbranches="0" totalbranches="0" />
+    <class name="E_CBAM" coveredlines="51" coverablelines="61" totallines="3233" coveredbranches="20" totalbranches="43" />
+  </assembly>
+  <assembly name="CBAM.SQL.PostgreSQL.JSON">
+    <class name="CBAM.SQL.PostgreSQL.JSON.CBAMExtensions" coveredlines="11" coverablelines="13" totallines="96" coveredbranches="2" totalbranches="2" />
+    <class name="CBAM.SQL.PostgreSQL.JSON.DefaultPgSQLJSONTypeFunctionality" coveredlines="17" coverablelines="25" totallines="117" coveredbranches="7" totalbranches="11" />
+  </assembly>
+</coverage>
