@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2019-01-03_21-40-46" tag="8d7f0c5533654d8985e24a7ff653dbe17521e121">
+  <assembly name="NuGetUtils.Lib.Common">
+    <class name="NuGetUtils.Lib.Common.AgnosticFrameworkLoggerWrapper" coveredlines="0" coverablelines="55" totallines="153" coveredbranches="0" totalbranches="64" />
+    <class name="NuGetUtils.Lib.Common.LogMessageEventArgs" coveredlines="0" coverablelines="4" totallines="230" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.Common.NuGetUtility" coveredlines="41" coverablelines="217" totallines="745" coveredbranches="20" totalbranches="140" />
+    <class name="NuGetUtils.Lib.Common.TextWriterLogger" coveredlines="0" coverablelines="43" totallines="230" coveredbranches="0" totalbranches="33" />
+    <class name="NuGetUtils.Lib.Common.TextWriterLoggerOptions" coveredlines="0" coverablelines="6" totallines="230" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>
