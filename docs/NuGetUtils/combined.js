@@ -321,32 +321,32 @@ window.matchMedia || (window.matchMedia = function() {
 }());
 
 
-var historyChartData65d956d4dc384dd597082317abbf10c7 = {
+var historyChartData06083225a1494bf19f058ff2b250d25f = {
     "series" : [[0],[0]],
     "tooltips" : ['<h3>1/3/19 - 9:40:46 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/55)<br /><span class="branchcoverage"></span> Branch coverage: 0% (0/64)<br />Total lines: 153<br />Tag: 8d7f0c5533654d8985e24a7ff653dbe17521e121']
 };
 
-var historyChartDataeabff8efa23b4b0e82d2d5299ae57e07 = {
+var historyChartData898d7746031b47eaa7fc7ebdc8f1a925 = {
     "series" : [[0]],
     "tooltips" : ['<h3>1/3/19 - 9:40:46 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/4)<br />Total lines: 230<br />Tag: 8d7f0c5533654d8985e24a7ff653dbe17521e121']
 };
 
-var historyChartData8ef64872f6644bb6b8231a5a788eed49 = {
+var historyChartData85a5d79fad2f437ebc483279eadc22ae = {
     "series" : [[18.8],[14.2]],
     "tooltips" : ['<h3>1/3/19 - 9:40:46 PM</h3><br /><span class="linecoverage"></span> Line coverage: 18.8% (41/217)<br /><span class="branchcoverage"></span> Branch coverage: 14.2% (20/140)<br />Total lines: 745<br />Tag: 8d7f0c5533654d8985e24a7ff653dbe17521e121']
 };
 
-var historyChartDataf553cbc500ab47a689e4b33129a67191 = {
+var historyChartDataeb89298afa2c4451a6c7f9dbae1be0de = {
     "series" : [[0],[0]],
     "tooltips" : ['<h3>1/3/19 - 9:40:46 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/43)<br /><span class="branchcoverage"></span> Branch coverage: 0% (0/33)<br />Total lines: 230<br />Tag: 8d7f0c5533654d8985e24a7ff653dbe17521e121']
 };
 
-var historyChartData6e2d8d60559e42b391999bafd741185f = {
+var historyChartData50b46d5858264efb86bc8d797b50abba = {
     "series" : [[0]],
     "tooltips" : ['<h3>1/3/19 - 9:40:46 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/6)<br />Total lines: 230<br />Tag: 8d7f0c5533654d8985e24a7ff653dbe17521e121']
 };
 
-var historyChartDatad0b8f61a84e84f3bb9ea4ce4d35d8566 = {
+var historyChartData3e12f39cb2344d3aa76afbf9da10f870 = {
     "series" : [[12.6],[8.4]],
     "tooltips" : ['<h3>1/3/19 - 9:40:46 PM</h3><br /><span class="linecoverage"></span> Line coverage: 12.6% (41/325)<br /><span class="branchcoverage"></span> Branch coverage: 8.4% (20/237)<br />Total lines: 1588<br />Tag: 8d7f0c5533654d8985e24a7ff653dbe17521e121']
 };
@@ -355,15 +355,15 @@ var assemblies = [
   {
     "name": "NuGetUtils.Lib.Common",
     "classes": [
-      { "name": "NuGetUtils.Lib.Common.AgnosticFrameworkLoggerWrapper", "reportPath": "NuGetUtils.Lib.Common_AgnosticFrameworkLoggerWrapper.htm", "coveredLines": 0, "uncoveredLines": 55, "coverableLines": 55, "totalLines": 153, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 64, "lineCoverageHistory": [0], "branchCoverageHistory": [0], "historicCoverages": [{ "executionTime": "1/3/19 - 9:40:46 PM", "coveredLines": 0, "uncoveredLines": 55, "coverableLines": 55, "totalLines": 153, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 64, "branchCoverageQuota": 0 }] },
-      { "name": "NuGetUtils.Lib.Common.LogMessageEventArgs", "reportPath": "NuGetUtils.Lib.Common_LogMessageEventArgs.htm", "coveredLines": 0, "uncoveredLines": 4, "coverableLines": 4, "totalLines": 230, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "1/3/19 - 9:40:46 PM", "coveredLines": 0, "uncoveredLines": 4, "coverableLines": 4, "totalLines": 230, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
-      { "name": "NuGetUtils.Lib.Common.NuGetUtility", "reportPath": "NuGetUtils.Lib.Common_NuGetUtility.htm", "coveredLines": 41, "uncoveredLines": 176, "coverableLines": 217, "totalLines": 745, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 20, "totalBranches": 140, "lineCoverageHistory": [18.8], "branchCoverageHistory": [14.2], "historicCoverages": [{ "executionTime": "1/3/19 - 9:40:46 PM", "coveredLines": 41, "uncoveredLines": 176, "coverableLines": 217, "totalLines": 745, "coverageQuota": 18.8, "coveredBranches": 20, "totalBranches": 140, "branchCoverageQuota": 14.2 }] },
-      { "name": "NuGetUtils.Lib.Common.TextWriterLogger", "reportPath": "NuGetUtils.Lib.Common_TextWriterLogger.htm", "coveredLines": 0, "uncoveredLines": 43, "coverableLines": 43, "totalLines": 230, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 33, "lineCoverageHistory": [0], "branchCoverageHistory": [0], "historicCoverages": [{ "executionTime": "1/3/19 - 9:40:46 PM", "coveredLines": 0, "uncoveredLines": 43, "coverableLines": 43, "totalLines": 230, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 33, "branchCoverageQuota": 0 }] },
-      { "name": "NuGetUtils.Lib.Common.TextWriterLoggerOptions", "reportPath": "NuGetUtils.Lib.Common_TextWriterLoggerOptions.htm", "coveredLines": 0, "uncoveredLines": 6, "coverableLines": 6, "totalLines": 230, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "1/3/19 - 9:40:46 PM", "coveredLines": 0, "uncoveredLines": 6, "coverableLines": 6, "totalLines": 230, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+      { "name": "NuGetUtils.Lib.Common.AgnosticFrameworkLoggerWrapper", "reportPath": "NuGetUtils.Lib.Common_AgnosticFrameworkLoggerWrapper.htm", "coveredLines": 0, "uncoveredLines": 55, "coverableLines": 55, "totalLines": 153, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 64, "lineCoverageHistory": [0], "branchCoverageHistory": [0], "historicCoverages": [{ "executionTime": "1/3/19 - 9:40:46 PM", "coveredLines": 0, "uncoveredLines": 55, "coverableLines": 55, "totalLines": 153, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 64, "branchCoverageQuota": 0 }, { "executionTime": "1/23/19 - 9:50:51 PM", "coveredLines": 0, "uncoveredLines": 55, "coverableLines": 55, "totalLines": 153, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 64, "branchCoverageQuota": 0 }] },
+      { "name": "NuGetUtils.Lib.Common.LogMessageEventArgs", "reportPath": "NuGetUtils.Lib.Common_LogMessageEventArgs.htm", "coveredLines": 0, "uncoveredLines": 4, "coverableLines": 4, "totalLines": 230, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "1/3/19 - 9:40:46 PM", "coveredLines": 0, "uncoveredLines": 4, "coverableLines": 4, "totalLines": 230, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }, { "executionTime": "1/23/19 - 9:50:51 PM", "coveredLines": 0, "uncoveredLines": 4, "coverableLines": 4, "totalLines": 230, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+      { "name": "NuGetUtils.Lib.Common.NuGetUtility", "reportPath": "NuGetUtils.Lib.Common_NuGetUtility.htm", "coveredLines": 41, "uncoveredLines": 176, "coverableLines": 217, "totalLines": 745, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 20, "totalBranches": 140, "lineCoverageHistory": [18.8], "branchCoverageHistory": [14.2], "historicCoverages": [{ "executionTime": "1/3/19 - 9:40:46 PM", "coveredLines": 41, "uncoveredLines": 176, "coverableLines": 217, "totalLines": 745, "coverageQuota": 18.8, "coveredBranches": 20, "totalBranches": 140, "branchCoverageQuota": 14.2 }, { "executionTime": "1/23/19 - 9:50:51 PM", "coveredLines": 41, "uncoveredLines": 176, "coverableLines": 217, "totalLines": 745, "coverageQuota": 18.8, "coveredBranches": 20, "totalBranches": 140, "branchCoverageQuota": 14.2 }] },
+      { "name": "NuGetUtils.Lib.Common.TextWriterLogger", "reportPath": "NuGetUtils.Lib.Common_TextWriterLogger.htm", "coveredLines": 0, "uncoveredLines": 43, "coverableLines": 43, "totalLines": 230, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 33, "lineCoverageHistory": [0], "branchCoverageHistory": [0], "historicCoverages": [{ "executionTime": "1/3/19 - 9:40:46 PM", "coveredLines": 0, "uncoveredLines": 43, "coverableLines": 43, "totalLines": 230, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 33, "branchCoverageQuota": 0 }, { "executionTime": "1/23/19 - 9:50:51 PM", "coveredLines": 0, "uncoveredLines": 43, "coverableLines": 43, "totalLines": 230, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 33, "branchCoverageQuota": 0 }] },
+      { "name": "NuGetUtils.Lib.Common.TextWriterLoggerOptions", "reportPath": "NuGetUtils.Lib.Common_TextWriterLoggerOptions.htm", "coveredLines": 0, "uncoveredLines": 6, "coverableLines": 6, "totalLines": 230, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "1/3/19 - 9:40:46 PM", "coveredLines": 0, "uncoveredLines": 6, "coverableLines": 6, "totalLines": 230, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }, { "executionTime": "1/23/19 - 9:50:51 PM", "coveredLines": 0, "uncoveredLines": 6, "coverableLines": 6, "totalLines": 230, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
     ]},
 ];
 
-var historicCoverageExecutionTimes = [];
+var historicCoverageExecutionTimes = ["1/3/19 - 9:40:46 PM"];
 
 var riskHotspotMetrics = [
       { "name": "Cyclomatic complexity", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" },
