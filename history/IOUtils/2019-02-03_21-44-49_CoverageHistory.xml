@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2019-02-03_21-44-49" tag="9832aa7f19663eb69916f41b8679d311c8372f33">
+  <assembly name="IOUtils.Network.Configuration">
+    <class name="IOUtils.Network.Configuration.Defaults" coveredlines="43" coverablelines="43" totallines="557" coveredbranches="0" totalbranches="0" />
+    <class name="IOUtils.Network.Configuration.NetworkConnectionConfiguration" coveredlines="8" coverablelines="8" totallines="557" coveredbranches="0" totalbranches="0" />
+    <class name="IOUtils.Network.Configuration.NetworkConnectionCreationInfo`5" coveredlines="23" coverablelines="25" totallines="557" coveredbranches="3" totalbranches="4" />
+    <class name="IOUtils.Network.Configuration.NetworkConnectionCreationInfo`6" coveredlines="0" coverablelines="2" totallines="92" coveredbranches="0" totalbranches="0" />
+    <class name="IOUtils.Network.Configuration.NetworkConnectionCreationInfoData`4" coveredlines="2" coverablelines="2" totallines="557" coveredbranches="0" totalbranches="0" />
+    <class name="IOUtils.Network.Configuration.NetworkInitializationConfiguration`2" coveredlines="0" coverablelines="2" totallines="557" coveredbranches="0" totalbranches="0" />
+    <class name="IOUtils.Network.Configuration.NetworkInitializationConfiguration`3" coveredlines="0" coverablelines="1" totallines="92" coveredbranches="0" totalbranches="0" />
+    <class name="IOUtils.Network.Configuration.NetworkPoolingConfiguration" coveredlines="0" coverablelines="1" totallines="557" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="IOUtils.Network.ResourcePooling">
+    <class name="E_IOUtils" coveredlines="73" coverablelines="74" totallines="1046" coveredbranches="9" totalbranches="16" />
+    <class name="IOUtils.Network.ResourcePooling.AbstractNetworkStreamFactory`1" coveredlines="0" coverablelines="11" totallines="804" coveredbranches="0" totalbranches="6" />
+    <class name="IOUtils.Network.ResourcePooling.AbstractNetworkStreamFactoryConfiguration" coveredlines="20" coverablelines="21" totallines="804" coveredbranches="0" totalbranches="0" />
+    <class name="IOUtils.Network.ResourcePooling.NetworkStreamFactory" coveredlines="6" coverablelines="16" totallines="804" coveredbranches="2" totalbranches="4" />
+    <class name="IOUtils.Network.ResourcePooling.NetworkStreamFactory`1" coveredlines="39" coverablelines="93" totallines="804" coveredbranches="29" totalbranches="34" />
+    <class name="IOUtils.Network.ResourcePooling.NetworkStreamFactoryConfiguration" coveredlines="4" coverablelines="4" totallines="804" coveredbranches="0" totalbranches="0" />
+    <class name="IOUtils.Network.ResourcePooling.NetworkStreamFactoryConfiguration`1" coveredlines="5" coverablelines="5" totallines="804" coveredbranches="0" totalbranches="0" />
+    <class name="IOUtils.Network.ResourcePooling.StatefulNetworkStreamFactoryCreator`5" coveredlines="0" coverablelines="47" totallines="242" coveredbranches="0" totalbranches="14" />
+    <class name="IOUtils.Network.ResourcePooling.UnixEndPoint" coveredlines="14" coverablelines="31" totallines="804" coveredbranches="3" totalbranches="16" />
+    <class name="IOUtils.Network.ResourcePooling.UtilPackMiscellaneous" coveredlines="4" coverablelines="35" totallines="98" coveredbranches="1" totalbranches="6" />
+  </assembly>
+</coverage>

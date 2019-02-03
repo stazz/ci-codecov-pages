@@ -321,7 +321,128 @@ window.matchMedia || (window.matchMedia = function() {
 }());
 
 
+var historyChartData87a69491cd424022b3368e318b806b76 = {
+    "series" : [[100]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 100% (43/43)<br />Total lines: 557<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartDatad0365129b46a49fc8713a400d0f5720b = {
+    "series" : [[100]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 100% (8/8)<br />Total lines: 557<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartDatae6c84d51cd9a4d1194c6376763045632 = {
+    "series" : [[92],[75]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 92% (23/25)<br /><span class="branchcoverage"></span> Branch coverage: 75% (3/4)<br />Total lines: 557<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartDatad4107a3b7ea947d5bea42f01246f7a3f = {
+    "series" : [[0]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/2)<br />Total lines: 92<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartData15e04e5814a44ea089d6d713153abd17 = {
+    "series" : [[100]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 100% (2/2)<br />Total lines: 557<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartDataa5487809beee4ae9afcf6daef2108ed6 = {
+    "series" : [[0]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/2)<br />Total lines: 557<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartData5cd561519e40439ab02d838eeb51e23a = {
+    "series" : [[0]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/1)<br />Total lines: 92<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartDataeddea715e3814e53b37c4d704cd7ecb0 = {
+    "series" : [[0]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/1)<br />Total lines: 557<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartData941b395d40574979ab5df0e0ac85575b = {
+    "series" : [[98.6],[56.2]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 98.6% (73/74)<br /><span class="branchcoverage"></span> Branch coverage: 56.2% (9/16)<br />Total lines: 1046<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartData839f56d198044200bf2f18e06c9e99aa = {
+    "series" : [[0],[0]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/11)<br /><span class="branchcoverage"></span> Branch coverage: 0% (0/6)<br />Total lines: 804<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartData7086f6735f4647b3bd47144a7d808387 = {
+    "series" : [[95.2]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 95.2% (20/21)<br />Total lines: 804<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartData473533d5c8f64a739aac9e7c11183b24 = {
+    "series" : [[37.5],[50]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 37.5% (6/16)<br /><span class="branchcoverage"></span> Branch coverage: 50% (2/4)<br />Total lines: 804<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartDatac984656bd41440b8854932c8577a8e69 = {
+    "series" : [[41.9],[85.2]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 41.9% (39/93)<br /><span class="branchcoverage"></span> Branch coverage: 85.2% (29/34)<br />Total lines: 804<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartDatabea2bf3b476847799bf29dd2aa091aec = {
+    "series" : [[100]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 100% (4/4)<br />Total lines: 804<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartData2ff69766f8364460a88f54a37d014f64 = {
+    "series" : [[100]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 100% (5/5)<br />Total lines: 804<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartData77481a9219d442ac8b0e18642ef46892 = {
+    "series" : [[0],[0]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 0% (0/47)<br /><span class="branchcoverage"></span> Branch coverage: 0% (0/14)<br />Total lines: 242<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartDataa8521fee24674a699650e7792ca93789 = {
+    "series" : [[45.1],[18.7]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 45.1% (14/31)<br /><span class="branchcoverage"></span> Branch coverage: 18.7% (3/16)<br />Total lines: 804<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartData8aa2fc1011a9473d93988a5b4d2de201 = {
+    "series" : [[11.4],[16.6]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 11.4% (4/35)<br /><span class="branchcoverage"></span> Branch coverage: 16.6% (1/6)<br />Total lines: 98<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
+var historyChartData03e40bc5d0564af29102ace0d39e44ef = {
+    "series" : [[57.2],[47]],
+    "tooltips" : ['<h3>2/3/19 - 9:44:49 PM</h3><br /><span class="linecoverage"></span> Line coverage: 57.2% (241/421)<br /><span class="branchcoverage"></span> Branch coverage: 47% (47/100)<br />Total lines: 10540<br />Tag: 9832aa7f19663eb69916f41b8679d311c8372f33']
+};
+
 var assemblies = [
+  {
+    "name": "IOUtils.Network.Configuration",
+    "classes": [
+      { "name": "IOUtils.Network.Configuration.Defaults", "reportPath": "IOUtils.Network.Configuration_Defaults.htm", "coveredLines": 43, "uncoveredLines": 0, "coverableLines": 43, "totalLines": 557, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 43, "uncoveredLines": 0, "coverableLines": 43, "totalLines": 557, "coverageQuota": 100, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+      { "name": "IOUtils.Network.Configuration.NetworkConnectionConfiguration", "reportPath": "IOUtils.Network.Configuration_NetworkConnectionConfiguration.htm", "coveredLines": 8, "uncoveredLines": 0, "coverableLines": 8, "totalLines": 557, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 8, "uncoveredLines": 0, "coverableLines": 8, "totalLines": 557, "coverageQuota": 100, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+      { "name": "IOUtils.Network.Configuration.NetworkConnectionCreationInfo`5", "reportPath": "IOUtils.Network.Configuration_NetworkConnectionCreationInfo_5.htm", "coveredLines": 23, "uncoveredLines": 2, "coverableLines": 25, "totalLines": 557, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 3, "totalBranches": 4, "lineCoverageHistory": [92], "branchCoverageHistory": [75], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 23, "uncoveredLines": 2, "coverableLines": 25, "totalLines": 557, "coverageQuota": 92, "coveredBranches": 3, "totalBranches": 4, "branchCoverageQuota": 75 }] },
+      { "name": "IOUtils.Network.Configuration.NetworkConnectionCreationInfo`6", "reportPath": "IOUtils.Network.Configuration_NetworkConnectionCreationInfo_6.htm", "coveredLines": 0, "uncoveredLines": 2, "coverableLines": 2, "totalLines": 92, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 0, "uncoveredLines": 2, "coverableLines": 2, "totalLines": 92, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+      { "name": "IOUtils.Network.Configuration.NetworkConnectionCreationInfoData`4", "reportPath": "IOUtils.Network.Configuration_NetworkConnectionCreationInfoData_4.htm", "coveredLines": 2, "uncoveredLines": 0, "coverableLines": 2, "totalLines": 557, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 2, "uncoveredLines": 0, "coverableLines": 2, "totalLines": 557, "coverageQuota": 100, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+      { "name": "IOUtils.Network.Configuration.NetworkInitializationConfiguration`2", "reportPath": "IOUtils.Network.Configuration_NetworkInitializationConfiguration_2.htm", "coveredLines": 0, "uncoveredLines": 2, "coverableLines": 2, "totalLines": 557, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 0, "uncoveredLines": 2, "coverableLines": 2, "totalLines": 557, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+      { "name": "IOUtils.Network.Configuration.NetworkInitializationConfiguration`3", "reportPath": "IOUtils.Network.Configuration_NetworkInitializationConfiguration_3.htm", "coveredLines": 0, "uncoveredLines": 1, "coverableLines": 1, "totalLines": 92, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 0, "uncoveredLines": 1, "coverableLines": 1, "totalLines": 92, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+      { "name": "IOUtils.Network.Configuration.NetworkPoolingConfiguration", "reportPath": "IOUtils.Network.Configuration_NetworkPoolingConfiguration.htm", "coveredLines": 0, "uncoveredLines": 1, "coverableLines": 1, "totalLines": 557, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [0], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 0, "uncoveredLines": 1, "coverableLines": 1, "totalLines": 557, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+    ]},
+  {
+    "name": "IOUtils.Network.ResourcePooling",
+    "classes": [
+      { "name": "E_IOUtils", "reportPath": "IOUtils.Network.ResourcePooling_E_IOUtils.htm", "coveredLines": 73, "uncoveredLines": 1, "coverableLines": 74, "totalLines": 1046, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 9, "totalBranches": 16, "lineCoverageHistory": [98.6], "branchCoverageHistory": [56.2], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 73, "uncoveredLines": 1, "coverableLines": 74, "totalLines": 1046, "coverageQuota": 98.6, "coveredBranches": 9, "totalBranches": 16, "branchCoverageQuota": 56.2 }] },
+      { "name": "IOUtils.Network.ResourcePooling.AbstractNetworkStreamFactory`1", "reportPath": "IOUtils.Network.ResourcePooling_AbstractNetworkStreamFactory_1.htm", "coveredLines": 0, "uncoveredLines": 11, "coverableLines": 11, "totalLines": 804, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 6, "lineCoverageHistory": [0], "branchCoverageHistory": [0], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 0, "uncoveredLines": 11, "coverableLines": 11, "totalLines": 804, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 6, "branchCoverageQuota": 0 }] },
+      { "name": "IOUtils.Network.ResourcePooling.AbstractNetworkStreamFactoryConfiguration", "reportPath": "IOUtils.Network.ResourcePooling_AbstractNetworkStreamFactoryConfiguration.htm", "coveredLines": 20, "uncoveredLines": 1, "coverableLines": 21, "totalLines": 804, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [95.2], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 20, "uncoveredLines": 1, "coverableLines": 21, "totalLines": 804, "coverageQuota": 95.2, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+      { "name": "IOUtils.Network.ResourcePooling.NetworkStreamFactory", "reportPath": "IOUtils.Network.ResourcePooling_NetworkStreamFactory.htm", "coveredLines": 6, "uncoveredLines": 10, "coverableLines": 16, "totalLines": 804, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 2, "totalBranches": 4, "lineCoverageHistory": [37.5], "branchCoverageHistory": [50], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 6, "uncoveredLines": 10, "coverableLines": 16, "totalLines": 804, "coverageQuota": 37.5, "coveredBranches": 2, "totalBranches": 4, "branchCoverageQuota": 50 }] },
+      { "name": "IOUtils.Network.ResourcePooling.NetworkStreamFactory`1", "reportPath": "IOUtils.Network.ResourcePooling_NetworkStreamFactory_1.htm", "coveredLines": 39, "uncoveredLines": 54, "coverableLines": 93, "totalLines": 804, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 29, "totalBranches": 34, "lineCoverageHistory": [41.9], "branchCoverageHistory": [85.2], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 39, "uncoveredLines": 54, "coverableLines": 93, "totalLines": 804, "coverageQuota": 41.9, "coveredBranches": 29, "totalBranches": 34, "branchCoverageQuota": 85.2 }] },
+      { "name": "IOUtils.Network.ResourcePooling.NetworkStreamFactoryConfiguration", "reportPath": "IOUtils.Network.ResourcePooling_NetworkStreamFactoryConfiguration.htm", "coveredLines": 4, "uncoveredLines": 0, "coverableLines": 4, "totalLines": 804, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 4, "uncoveredLines": 0, "coverableLines": 4, "totalLines": 804, "coverageQuota": 100, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+      { "name": "IOUtils.Network.ResourcePooling.NetworkStreamFactoryConfiguration`1", "reportPath": "IOUtils.Network.ResourcePooling_NetworkStreamFactoryConfiguration_1.htm", "coveredLines": 5, "uncoveredLines": 0, "coverableLines": 5, "totalLines": 804, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 0, "lineCoverageHistory": [100], "branchCoverageHistory": [], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 5, "uncoveredLines": 0, "coverableLines": 5, "totalLines": 804, "coverageQuota": 100, "coveredBranches": 0, "totalBranches": 0, "branchCoverageQuota": 0 }] },
+      { "name": "IOUtils.Network.ResourcePooling.StatefulNetworkStreamFactoryCreator`5", "reportPath": "IOUtils.Network.ResourcePooling_StatefulNetworkStreamFactoryCreator_5.htm", "coveredLines": 0, "uncoveredLines": 47, "coverableLines": 47, "totalLines": 242, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 0, "totalBranches": 14, "lineCoverageHistory": [0], "branchCoverageHistory": [0], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 0, "uncoveredLines": 47, "coverableLines": 47, "totalLines": 242, "coverageQuota": 0, "coveredBranches": 0, "totalBranches": 14, "branchCoverageQuota": 0 }] },
+      { "name": "IOUtils.Network.ResourcePooling.UnixEndPoint", "reportPath": "IOUtils.Network.ResourcePooling_UnixEndPoint.htm", "coveredLines": 14, "uncoveredLines": 17, "coverableLines": 31, "totalLines": 804, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 3, "totalBranches": 16, "lineCoverageHistory": [45.1], "branchCoverageHistory": [18.7], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 14, "uncoveredLines": 17, "coverableLines": 31, "totalLines": 804, "coverageQuota": 45.1, "coveredBranches": 3, "totalBranches": 16, "branchCoverageQuota": 18.7 }] },
+      { "name": "IOUtils.Network.ResourcePooling.UtilPackMiscellaneous", "reportPath": "IOUtils.Network.ResourcePooling_UtilPackMiscellaneous.htm", "coveredLines": 4, "uncoveredLines": 31, "coverableLines": 35, "totalLines": 98, "coverageType": "LineCoverage", "methodCoverage": "-", "coveredBranches": 1, "totalBranches": 6, "lineCoverageHistory": [11.4], "branchCoverageHistory": [16.6], "historicCoverages": [{ "executionTime": "2/3/19 - 9:44:49 PM", "coveredLines": 4, "uncoveredLines": 31, "coverableLines": 35, "totalLines": 98, "coverageQuota": 11.4, "coveredBranches": 1, "totalBranches": 6, "branchCoverageQuota": 16.6 }] },
+    ]},
 ];
 
 var historicCoverageExecutionTimes = [];
