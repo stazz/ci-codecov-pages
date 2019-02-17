@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2019-02-17_14-46-24" tag="856340a2befc639bbcc95b75fb60eadbd47ecbc3">
+  <assembly name="NuGetUtils.Lib.Common">
+    <class name="NuGetUtils.Lib.Common.AgnosticFrameworkLoggerWrapper" coveredlines="0" coverablelines="55" totallines="153" coveredbranches="0" totalbranches="64" />
+    <class name="NuGetUtils.Lib.Common.LogMessageEventArgs" coveredlines="0" coverablelines="4" totallines="230" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.Common.NuGetUtility" coveredlines="41" coverablelines="217" totallines="754" coveredbranches="20" totalbranches="140" />
+    <class name="NuGetUtils.Lib.Common.TextWriterLogger" coveredlines="0" coverablelines="43" totallines="230" coveredbranches="0" totalbranches="33" />
+    <class name="NuGetUtils.Lib.Common.TextWriterLoggerOptions" coveredlines="0" coverablelines="6" totallines="230" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NuGetUtils.Lib.Exec.Agnostic">
+    <class name="E_NuGetUtils" coveredlines="0" coverablelines="1" totallines="102" coveredbranches="0" totalbranches="2" />
+  </assembly>
+  <assembly name="NuGetUtils.Lib.Restore.Agnostic" />
+  <assembly name="NuGetUtils.MSBuild.Exec">
+    <class name="NuGetUtils.MSBuild.Exec.EnvironmentKey" coveredlines="0" coverablelines="24" totallines="399" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.EnvironmentKeyInfo" coveredlines="0" coverablelines="12" totallines="399" coveredbranches="0" totalbranches="2" />
+    <class name="NuGetUtils.MSBuild.Exec.EnvironmentValue" coveredlines="0" coverablelines="18" totallines="399" coveredbranches="0" totalbranches="2" />
+    <class name="NuGetUtils.MSBuild.Exec.InspectionExecutableParameterInfo" coveredlines="0" coverablelines="14" totallines="399" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.InspectionKey" coveredlines="0" coverablelines="24" totallines="399" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.InspectionValue" coveredlines="0" coverablelines="13" totallines="399" coveredbranches="0" totalbranches="6" />
+    <class name="NuGetUtils.MSBuild.Exec.NuGetExecutionCache" coveredlines="0" coverablelines="151" totallines="399" coveredbranches="0" totalbranches="34" />
+    <class name="NuGetUtils.MSBuild.Exec.NuGetUtilsExtensions" coveredlines="0" coverablelines="6" totallines="657" coveredbranches="0" totalbranches="4" />
+    <class name="NuGetUtils.MSBuild.Exec.TaskFactory" coveredlines="0" coverablelines="121" totallines="258" coveredbranches="0" totalbranches="44" />
+    <class name="NuGetUtils.MSBuild.Exec.TaskProxy" coveredlines="0" coverablelines="17" totallines="80" coveredbranches="0" totalbranches="8" />
+    <class name="NuGetUtils.MSBuild.Exec.TaskTypeGenerator" coveredlines="0" coverablelines="161" totallines="287" coveredbranches="0" totalbranches="42" />
+    <class name="NuGetUtils.MSBuild.Exec.TypeGenerationResult" coveredlines="0" coverablelines="9" totallines="287" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NuGetUtils.MSBuild.Exec.Common">
+    <class name="E_NuGetUtils" coveredlines="0" coverablelines="2" totallines="106" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.DefaultNuGetExecutionConfiguration`1" coveredlines="0" coverablelines="16" totallines="99" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.DiscoverConfiguration`1" coveredlines="0" coverablelines="3" totallines="52" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.EnvironmentInspectionResult" coveredlines="0" coverablelines="7" totallines="52" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.ExecutableParameterInfo" coveredlines="0" coverablelines="4" totallines="54" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.InspectConfiguration`1" coveredlines="0" coverablelines="1" totallines="54" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.NuGetUtilsExtensions" coveredlines="0" coverablelines="4" totallines="99" coveredbranches="0" totalbranches="2" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.PackageInspectionResult" coveredlines="0" coverablelines="3" totallines="54" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>
