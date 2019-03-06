@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2019-03-06_20-13-54" tag="8d6695d0905a282f4aec78c694221cdea16dfd84">
+  <assembly name="NuGetUtils.Lib.AssemblyResolving">
+    <class name="E_NuGetUtils" coveredlines="31" coverablelines="58" totallines="1552" coveredbranches="10" totalbranches="33" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.AbstractAssemblyResolveArgs`1" coveredlines="5" coverablelines="6" totallines="1552" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.AssemblyLoadFailedEventArgs" coveredlines="0" coverablelines="2" totallines="1552" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.AssemblyLoadFailedEventArgs`1" coveredlines="0" coverablelines="2" totallines="1552" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.AssemblyLoadSuccessEventArgs" coveredlines="2" coverablelines="2" totallines="1552" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.AssemblyLoadSuccessEventArgs`1" coveredlines="4" coverablelines="6" totallines="1552" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.NuGetAssemblyResolverFactory" coveredlines="21" coverablelines="34" totallines="1552" coveredbranches="8" totalbranches="10" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.NuGetAssemblyResolverImpl" coveredlines="211" coverablelines="305" totallines="1552" coveredbranches="51" totalbranches="111" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.NuGetExtensions" coveredlines="0" coverablelines="2" totallines="1552" coveredbranches="0" totalbranches="4" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.NuGetRestorerWrapper" coveredlines="9" coverablelines="9" totallines="1552" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.ResolvedPackageInfo" coveredlines="5" coverablelines="6" totallines="1552" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.UnmanagedAssemblyLoadFailedEventArgs" coveredlines="0" coverablelines="4" totallines="1552" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.AssemblyResolving.UnmanagedAssemblyLoadSuccessEventArgs" coveredlines="0" coverablelines="2" totallines="1552" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NuGetUtils.Lib.Common">
+    <class name="NuGetUtils.Lib.Common.AgnosticFrameworkLoggerWrapper" coveredlines="0" coverablelines="55" totallines="153" coveredbranches="0" totalbranches="64" />
+    <class name="NuGetUtils.Lib.Common.LogMessageEventArgs" coveredlines="0" coverablelines="4" totallines="230" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.Common.NuGetUtility" coveredlines="104" coverablelines="217" totallines="754" coveredbranches="70" totalbranches="140" />
+    <class name="NuGetUtils.Lib.Common.TextWriterLogger" coveredlines="21" coverablelines="43" totallines="230" coveredbranches="17" totalbranches="33" />
+    <class name="NuGetUtils.Lib.Common.TextWriterLoggerOptions" coveredlines="6" coverablelines="6" totallines="230" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NuGetUtils.Lib.EntryPoint">
+    <class name="NuGetUtils.Lib.EntryPoint.ConfiguredEntryPointAttribute" coveredlines="0" coverablelines="15" totallines="85" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NuGetUtils.Lib.Exec">
+    <class name="E_NuGetUtils" coveredlines="125" coverablelines="134" totallines="652" coveredbranches="49" totalbranches="60" />
+    <class name="NuGetUtils.Lib.Exec.MethodSearcher" coveredlines="33" coverablelines="74" totallines="652" coveredbranches="26" totalbranches="66" />
+    <class name="NuGetUtils.Lib.Exec.NoExecutableMethodFound" coveredlines="0" coverablelines="3" totallines="652" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.Exec.NuGetExecutionUtils" coveredlines="9" coverablelines="9" totallines="652" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.Exec.NuGetUtilsExtensions" coveredlines="7" coverablelines="7" totallines="652" coveredbranches="2" totalbranches="2" />
+  </assembly>
+  <assembly name="NuGetUtils.Lib.Exec.Agnostic">
+    <class name="E_NuGetUtils" coveredlines="1" coverablelines="1" totallines="108" coveredbranches="1" totalbranches="2" />
+  </assembly>
+  <assembly name="NuGetUtils.Lib.Restore">
+    <class name="E_NuGetUtils" coveredlines="63" coverablelines="75" totallines="827" coveredbranches="24" totalbranches="36" />
+    <class name="NuGetUtils.Lib.Restore.BoundRestoreCommandUser" coveredlines="238" coverablelines="250" totallines="827" coveredbranches="118" totalbranches="129" />
+    <class name="NuGetUtils.Lib.Restore.PackageSpecCreatedArgs" coveredlines="0" coverablelines="4" totallines="827" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NuGetUtils.Lib.Restore.Agnostic" />
+  <assembly name="NuGetUtils.Lib.Tool">
+    <class name="E_NuGetUtils" coveredlines="0" coverablelines="38" totallines="680" coveredbranches="0" totalbranches="8" />
+    <class name="NuGetUtils.Lib.Tool.ConfigurationInformation`1" coveredlines="5" coverablelines="7" totallines="680" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.Tool.DefaultCommandLineDocumentationInfo" coveredlines="0" coverablelines="3" totallines="680" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.Tool.DefaultDocumentationGroupInfo" coveredlines="0" coverablelines="3" totallines="680" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.Tool.NuGetRestoringProgram`2" coveredlines="19" coverablelines="19" totallines="680" coveredbranches="2" totalbranches="4" />
+    <class name="NuGetUtils.Lib.Tool.NuGetRestoringProgramWithDocumentation`2" coveredlines="0" coverablelines="6" totallines="680" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.Lib.Tool.NuGetRestoringProgramWithShutdownCancellation`2" coveredlines="15" coverablelines="20" totallines="680" coveredbranches="12" totalbranches="14" />
+    <class name="NuGetUtils.Lib.Tool.Program`2" coveredlines="50" coverablelines="83" totallines="680" coveredbranches="33" totalbranches="34" />
+  </assembly>
+  <assembly name="NuGetUtils.Lib.Tool.Agnostic">
+    <class name="NuGetUtils.Lib.Tool.Agnostic.DefaultConfigurationConfiguration" coveredlines="1" coverablelines="1" totallines="48" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NuGetUtils.MSBuild.Exec">
+    <class name="NuGetUtils.MSBuild.Exec.EnvironmentKey" coveredlines="24" coverablelines="24" totallines="341" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.EnvironmentKeyInfo" coveredlines="12" coverablelines="12" totallines="341" coveredbranches="1" totalbranches="2" />
+    <class name="NuGetUtils.MSBuild.Exec.EnvironmentValue" coveredlines="20" coverablelines="20" totallines="341" coveredbranches="2" totalbranches="4" />
+    <class name="NuGetUtils.MSBuild.Exec.InitializationArgs" coveredlines="42" coverablelines="42" totallines="357" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.InspectionExecutableParameterInfo" coveredlines="12" coverablelines="14" totallines="341" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.InspectionKey" coveredlines="24" coverablelines="24" totallines="341" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.InspectionValue" coveredlines="14" coverablelines="15" totallines="341" coveredbranches="5" totalbranches="6" />
+    <class name="NuGetUtils.MSBuild.Exec.NuGetExecutionCache" coveredlines="105" coverablelines="105" totallines="341" coveredbranches="12" totalbranches="12" />
+    <class name="NuGetUtils.MSBuild.Exec.NuGetExecutionTaskFactory" coveredlines="81" coverablelines="105" totallines="357" coveredbranches="26" totalbranches="51" />
+    <class name="NuGetUtils.MSBuild.Exec.NuGetUtilsExecProcessMonitor" coveredlines="76" coverablelines="81" totallines="519" coveredbranches="13" totalbranches="22" />
+    <class name="NuGetUtils.MSBuild.Exec.NuGetUtilsExtensions" coveredlines="3" coverablelines="32" totallines="698" coveredbranches="2" totalbranches="16" />
+    <class name="NuGetUtils.MSBuild.Exec.ProcessMonitor" coveredlines="39" coverablelines="39" totallines="519" coveredbranches="10" totalbranches="10" />
+    <class name="NuGetUtils.MSBuild.Exec.ProcessMonitorWithGracefulCancelability" coveredlines="73" coverablelines="84" totallines="519" coveredbranches="56" totalbranches="61" />
+    <class name="NuGetUtils.MSBuild.Exec.TaskProxy" coveredlines="96" coverablelines="105" totallines="207" coveredbranches="39" totalbranches="44" />
+    <class name="NuGetUtils.MSBuild.Exec.TaskTypeGenerator" coveredlines="154" coverablelines="162" totallines="288" coveredbranches="36" totalbranches="44" />
+    <class name="NuGetUtils.MSBuild.Exec.TypeGenerationResult" coveredlines="9" coverablelines="9" totallines="288" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NuGetUtils.MSBuild.Exec.Common">
+    <class name="E_NuGetUtils" coveredlines="6" coverablelines="6" totallines="263" coveredbranches="2" totalbranches="4" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.DefaultNuGetExecutionConfiguration`1" coveredlines="18" coverablelines="18" totallines="115" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.DiscoverConfiguration`1" coveredlines="3" coverablelines="3" totallines="53" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.EnvironmentInspectionResult" coveredlines="7" coverablelines="7" totallines="53" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.ExecutableParameterInfo" coveredlines="4" coverablelines="4" totallines="56" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.InspectConfiguration`1" coveredlines="1" coverablelines="1" totallines="56" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.NuGetUtilsExtensions" coveredlines="4" coverablelines="4" totallines="115" coveredbranches="1" totalbranches="2" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.PackageInspectionResult" coveredlines="4" coverablelines="4" totallines="56" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Common.PerformConfiguration`1" coveredlines="1" coverablelines="1" totallines="39" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NuGetUtils.MSBuild.Exec.Discover">
+    <class name="NuGetUtils.MSBuild.Exec.Discover.EnvironmentInspector" coveredlines="36" coverablelines="116" totallines="242" coveredbranches="6" totalbranches="34" />
+    <class name="NuGetUtils.MSBuild.Exec.Discover.NuGetProgram" coveredlines="20" coverablelines="21" totallines="103" coveredbranches="7" totalbranches="9" />
+    <class name="NuGetUtils.MSBuild.Exec.Discover.Program" coveredlines="1" coverablelines="1" totallines="103" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NuGetUtils.MSBuild.Exec.Inspect">
+    <class name="NuGetUtils.MSBuild.Exec.Inspect.NuGetProgram" coveredlines="54" coverablelines="56" totallines="180" coveredbranches="30" totalbranches="31" />
+    <class name="NuGetUtils.MSBuild.Exec.Inspect.NuGetUtilsExtensions" coveredlines="9" coverablelines="9" totallines="180" coveredbranches="0" totalbranches="0" />
+    <class name="NuGetUtils.MSBuild.Exec.Inspect.Program" coveredlines="1" coverablelines="1" totallines="180" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="NuGetUtils.MSBuild.Exec.Perform">
+    <class name="NuGetUtils.MSBuild.Exec.Perform.NuGetProgram" coveredlines="18" coverablelines="19" totallines="91" coveredbranches="6" totalbranches="7" />
+    <class name="NuGetUtils.MSBuild.Exec.Perform.Program" coveredlines="1" coverablelines="1" totallines="91" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>
