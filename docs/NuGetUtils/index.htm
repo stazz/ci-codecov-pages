@@ -14,22 +14,22 @@
 <col />
 </colgroup>
 <tbody>
-<tr><th>Generated on:</th><td>3/6/19 - 8:13:54 PM</td></tr>
+<tr><th>Generated on:</th><td>3/7/19 - 10:51:10 PM</td></tr>
 <tr><th>Parser:</th><td>MultiReportParser (2x OpenCoverParser)</td></tr>
 <tr><th>Assemblies:</th><td>14</td></tr>
 <tr><th>Classes:</th><td>70</td></tr>
 <tr><th>Files:</th><td>23</td></tr>
-<tr><th>Covered lines:</th><td>1957</td></tr>
-<tr><th>Uncovered lines:</th><td>703</td></tr>
-<tr><th>Coverable lines:</th><td>2660</td></tr>
-<tr><th>Total lines:</th><td>7680</td></tr>
-<tr><th>Line coverage:</th><td>73.5%</td></tr>
-<tr><th>Branch coverage:</th><td>61%</td></tr>
-<tr><th>Tag:</th><td>8d6695d0905a282f4aec78c694221cdea16dfd84</td></tr>
+<tr><th>Covered lines:</th><td>1972</td></tr>
+<tr><th>Uncovered lines:</th><td>701</td></tr>
+<tr><th>Coverable lines:</th><td>2673</td></tr>
+<tr><th>Total lines:</th><td>7693</td></tr>
+<tr><th>Line coverage:</th><td>73.7%</td></tr>
+<tr><th>Branch coverage:</th><td>60.1%</td></tr>
+<tr><th>Tag:</th><td>a41ce3b3e1dad5e35106b3c6197b257a2a3216c6</td></tr>
 </tbody>
 </table>
 <h1>Coverage History</h1>
-<div id="mainHistoryChart" class="ct-chart" data-history-chart data-data="historyChartData7fb90d81d09845bdb381dffe979fc3c3"></div>
+<div id="mainHistoryChart" class="ct-chart" data-history-chart data-data="historyChartData1dcd8a449fbe45e8bd2f660dba245812"></div>
 <h1>Risk Hotspots</h1>
 <div data-ng-if="riskHotspots.length > 0" data-reactive-risk-hotspot-table data-risk-hotspots="riskHotspots" data-risk-hotspot-metrics="riskHotspotMetrics"></div>
 <table data-ng-if="false" class="overview table-fixed stripped">
@@ -48,15 +48,21 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>NuGetUtils.MSBuild.Exec</td>
-<td><a href="NuGetUtils.MSBuild.Exec_TaskTypeGenerator.htm">NuGetUtils.MSBuild.Exec.TaskTypeGenerator</a></td>
-<td title="NuGetUtils.MSBuild.Exec.TypeGenerationResult NuGetUtils.MSBuild.Exec.TaskTypeGenerator::GenerateTaskType(System.Boolean,System.Collections.Generic.IEnumerable`1&lt;NuGetUtils.MSBuild.Exec.InspectionExecutableParameterInfo&gt;,System.Collections.Generic.IEnumerable`1&lt;NuGetUtils.MSBuild.Exec.InspectionExecutableParameterInfo&gt;)"><a href="NuGetUtils.MSBuild.Exec_TaskTypeGenerator.htm#file0_line49">GenerateTaskType(...)</a></td><td class="lightred right">44</td>
-<td class="lightgreen right">0</td>
-</tr>
-<tr>
 <td>NuGetUtils.Lib.Exec</td>
 <td><a href="NuGetUtils.Lib.Exec_MethodSearcher.htm">NuGetUtils.Lib.Exec.MethodSearcher</a></td>
 <td title="System.Reflection.MethodInfo NuGetUtils.Lib.Exec.MethodSearcher::GetSuitableMethod()"><a href="NuGetUtils.Lib.Exec_MethodSearcher.htm#file0_line64">GetSuitableMethod()</a></td><td class="lightred right">42</td>
+<td class="lightgreen right">0</td>
+</tr>
+<tr>
+<td>NuGetUtils.MSBuild.Exec</td>
+<td><a href="NuGetUtils.MSBuild.Exec_TaskTypeGenerator.htm">NuGetUtils.MSBuild.Exec.TaskTypeGenerator</a></td>
+<td title="NuGetUtils.MSBuild.Exec.TypeGenerationResult NuGetUtils.MSBuild.Exec.TaskTypeGenerator::GenerateTaskType(System.Boolean,System.Collections.Generic.IEnumerable`1&lt;NuGetUtils.MSBuild.Exec.InspectionExecutableParameterInfo&gt;,System.Collections.Generic.IEnumerable`1&lt;NuGetUtils.MSBuild.Exec.InspectionExecutableParameterInfo&gt;)"><a href="NuGetUtils.MSBuild.Exec_TaskTypeGenerator.htm#file0_line49">GenerateTaskType(...)</a></td><td class="lightred right">42</td>
+<td class="lightgreen right">0</td>
+</tr>
+<tr>
+<td>NuGetUtils.MSBuild.Exec</td>
+<td><a href="NuGetUtils.MSBuild.Exec_TaskProxy.htm">NuGetUtils.MSBuild.Exec.TaskProxy</a></td>
+<td title="ExecuteAsync()"><a href="NuGetUtils.MSBuild.Exec_TaskProxy.htm#file0_line100">ExecuteAsync()</a></td><td class="lightred right">36</td>
 <td class="lightgreen right">0</td>
 </tr>
 <tr>
@@ -75,12 +81,6 @@
 <td>NuGetUtils.MSBuild.Exec</td>
 <td><a href="NuGetUtils.MSBuild.Exec_ProcessMonitorWithGracefulCancelability.htm">NuGetUtils.MSBuild.Exec.ProcessMonitorWithGracefulCancelability</a></td>
 <td title="ExecuteAsFileAtThisPathWithCancelability()"><a href="NuGetUtils.MSBuild.Exec_ProcessMonitorWithGracefulCancelability.htm#file0_line164">ExecuteAsFileAtThisPathWithCancelability()</a></td><td class="lightred right">32</td>
-<td class="lightgreen right">0</td>
-</tr>
-<tr>
-<td>NuGetUtils.MSBuild.Exec</td>
-<td><a href="NuGetUtils.MSBuild.Exec_TaskProxy.htm">NuGetUtils.MSBuild.Exec.TaskProxy</a></td>
-<td title="ExecuteAsync()"><a href="NuGetUtils.MSBuild.Exec_TaskProxy.htm#file0_line98">ExecuteAsync()</a></td><td class="lightred right">32</td>
 <td class="lightgreen right">0</td>
 </tr>
 <tr>
@@ -140,9 +140,9 @@
 <tr><td><a href="NuGetUtils.Lib.Exec_NuGetUtilsExtensions.htm">NuGetUtils.Lib.Exec.NuGetUtilsExtensions</a></td><td class="right">7</td><td class="right">0</td><td class="right">7</td><td class="right">652</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td></tr>
 <tr><th>NuGetUtils.Lib.Exec.Agnostic</th><th class="right">1</th><th class="right">0</th><th class="right">1</th><th class="right">108</th><th title="LineCoverage" class="right">100%</th><th><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></th><th class="right">50%</th><th><table class="coverage"><tr><td class="green covered50">&nbsp;</td><td class="red covered50">&nbsp;</td></tr></table></th></tr>
 <tr><td><a href="NuGetUtils.Lib.Exec.Agnostic_E_NuGetUtils.htm">E_NuGetUtils</a></td><td class="right">1</td><td class="right">0</td><td class="right">1</td><td class="right">108</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right">50%</td><td><table class="coverage"><tr><td class="green covered50">&nbsp;</td><td class="red covered50">&nbsp;</td></tr></table></td></tr>
-<tr><th>NuGetUtils.Lib.Restore</th><th class="right">301</th><th class="right">28</th><th class="right">329</th><th class="right">2481</th><th title="LineCoverage" class="right">91.4%</th><th><table class="coverage"><tr><td class="green covered91">&nbsp;</td><td class="red covered9">&nbsp;</td></tr></table></th><th class="right">86%</th><th><table class="coverage"><tr><td class="green covered86">&nbsp;</td><td class="red covered14">&nbsp;</td></tr></table></th></tr>
+<tr><th>NuGetUtils.Lib.Restore</th><th class="right">301</th><th class="right">28</th><th class="right">329</th><th class="right">2481</th><th title="LineCoverage" class="right">91.4%</th><th><table class="coverage"><tr><td class="green covered91">&nbsp;</td><td class="red covered9">&nbsp;</td></tr></table></th><th class="right">83.2%</th><th><table class="coverage"><tr><td class="green covered83">&nbsp;</td><td class="red covered17">&nbsp;</td></tr></table></th></tr>
 <tr><td><a href="NuGetUtils.Lib.Restore_E_NuGetUtils.htm">E_NuGetUtils</a></td><td class="right">63</td><td class="right">12</td><td class="right">75</td><td class="right">827</td><td title="LineCoverage" class="right">84%</td><td><table class="coverage"><tr><td class="green covered84">&nbsp;</td><td class="red covered16">&nbsp;</td></tr></table></td><td class="right">66.6%</td><td><table class="coverage"><tr><td class="green covered67">&nbsp;</td><td class="red covered33">&nbsp;</td></tr></table></td></tr>
-<tr><td><a href="NuGetUtils.Lib.Restore_BoundRestoreCommandUser.htm">NuGetUtils.Lib.Restore.BoundRestoreCommandUser</a></td><td class="right">238</td><td class="right">12</td><td class="right">250</td><td class="right">827</td><td title="LineCoverage" class="right">95.2%</td><td><table class="coverage"><tr><td class="green covered95">&nbsp;</td><td class="red covered5">&nbsp;</td></tr></table></td><td class="right">91.4%</td><td><table class="coverage"><tr><td class="green covered91">&nbsp;</td><td class="red covered9">&nbsp;</td></tr></table></td></tr>
+<tr><td><a href="NuGetUtils.Lib.Restore_BoundRestoreCommandUser.htm">NuGetUtils.Lib.Restore.BoundRestoreCommandUser</a></td><td class="right">238</td><td class="right">12</td><td class="right">250</td><td class="right">827</td><td title="LineCoverage" class="right">95.2%</td><td><table class="coverage"><tr><td class="green covered95">&nbsp;</td><td class="red covered5">&nbsp;</td></tr></table></td><td class="right">88%</td><td><table class="coverage"><tr><td class="green covered88">&nbsp;</td><td class="red covered12">&nbsp;</td></tr></table></td></tr>
 <tr><td><a href="NuGetUtils.Lib.Restore_PackageSpecCreatedArgs.htm">NuGetUtils.Lib.Restore.PackageSpecCreatedArgs</a></td><td class="right">0</td><td class="right">4</td><td class="right">4</td><td class="right">827</td><td title="LineCoverage" class="right">0%</td><td><table class="coverage"><tr><td class="red covered100">&nbsp;</td></tr></table></td><td class="right"></td><td><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></td></tr>
 <tr><th>NuGetUtils.Lib.Restore.Agnostic</th><th class="right">0</th><th class="right">0</th><th class="right">0</th><th class="right">0</th><th title="" class="right"></th><th><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></th><th class="right"></th><th><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></th></tr>
 <tr><th>NuGetUtils.Lib.Tool</th><th class="right">89</th><th class="right">90</th><th class="right">179</th><th class="right">5440</th><th title="LineCoverage" class="right">49.7%</th><th><table class="coverage"><tr><td class="green covered50">&nbsp;</td><td class="red covered50">&nbsp;</td></tr></table></th><th class="right">78.3%</th><th><table class="coverage"><tr><td class="green covered78">&nbsp;</td><td class="red covered22">&nbsp;</td></tr></table></th></tr>
@@ -156,12 +156,12 @@
 <tr><td><a href="NuGetUtils.Lib.Tool_Program_2.htm">NuGetUtils.Lib.Tool.Program`2</a></td><td class="right">50</td><td class="right">33</td><td class="right">83</td><td class="right">680</td><td title="LineCoverage" class="right">60.2%</td><td><table class="coverage"><tr><td class="green covered60">&nbsp;</td><td class="red covered40">&nbsp;</td></tr></table></td><td class="right">97%</td><td><table class="coverage"><tr><td class="green covered97">&nbsp;</td><td class="red covered3">&nbsp;</td></tr></table></td></tr>
 <tr><th>NuGetUtils.Lib.Tool.Agnostic</th><th class="right">1</th><th class="right">0</th><th class="right">1</th><th class="right">48</th><th title="LineCoverage" class="right">100%</th><th><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></th><th class="right"></th><th><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></th></tr>
 <tr><td><a href="NuGetUtils.Lib.Tool.Agnostic_DefaultConfigurationConfiguration.htm">NuGetUtils.Lib.Tool.Agnostic.DefaultConfigurationConfiguration</a></td><td class="right">1</td><td class="right">0</td><td class="right">1</td><td class="right">48</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right"></td><td><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></td></tr>
-<tr><th>NuGetUtils.MSBuild.Exec</th><th class="right">784</th><th class="right">89</th><th class="right">873</th><th class="right">6139</th><th title="LineCoverage" class="right">89.8%</th><th><table class="coverage"><tr><td class="green covered90">&nbsp;</td><td class="red covered10">&nbsp;</td></tr></table></th><th class="right">74.2%</th><th><table class="coverage"><tr><td class="green covered74">&nbsp;</td><td class="red covered26">&nbsp;</td></tr></table></th></tr>
+<tr><th>NuGetUtils.MSBuild.Exec</th><th class="right">799</th><th class="right">87</th><th class="right">886</th><th class="right">6149</th><th title="LineCoverage" class="right">90.1%</th><th><table class="coverage"><tr><td class="green covered90">&nbsp;</td><td class="red covered10">&nbsp;</td></tr></table></th><th class="right">72%</th><th><table class="coverage"><tr><td class="green covered72">&nbsp;</td><td class="red covered28">&nbsp;</td></tr></table></th></tr>
 <tr><td><a href="NuGetUtils.MSBuild.Exec_EnvironmentKey.htm">NuGetUtils.MSBuild.Exec.EnvironmentKey</a></td><td class="right">24</td><td class="right">0</td><td class="right">24</td><td class="right">341</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right"></td><td><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></td></tr>
 <tr><td><a href="NuGetUtils.MSBuild.Exec_EnvironmentKeyInfo.htm">NuGetUtils.MSBuild.Exec.EnvironmentKeyInfo</a></td><td class="right">12</td><td class="right">0</td><td class="right">12</td><td class="right">341</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right">50%</td><td><table class="coverage"><tr><td class="green covered50">&nbsp;</td><td class="red covered50">&nbsp;</td></tr></table></td></tr>
 <tr><td><a href="NuGetUtils.MSBuild.Exec_EnvironmentValue.htm">NuGetUtils.MSBuild.Exec.EnvironmentValue</a></td><td class="right">20</td><td class="right">0</td><td class="right">20</td><td class="right">341</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right">50%</td><td><table class="coverage"><tr><td class="green covered50">&nbsp;</td><td class="red covered50">&nbsp;</td></tr></table></td></tr>
 <tr><td><a href="NuGetUtils.MSBuild.Exec_InitializationArgs.htm">NuGetUtils.MSBuild.Exec.InitializationArgs</a></td><td class="right">42</td><td class="right">0</td><td class="right">42</td><td class="right">357</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right"></td><td><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></td></tr>
-<tr><td><a href="NuGetUtils.MSBuild.Exec_InspectionExecutableParameterInfo.htm">NuGetUtils.MSBuild.Exec.InspectionExecutableParameterInfo</a></td><td class="right">12</td><td class="right">2</td><td class="right">14</td><td class="right">341</td><td title="LineCoverage" class="right">85.7%</td><td><table class="coverage"><tr><td class="green covered86">&nbsp;</td><td class="red covered14">&nbsp;</td></tr></table></td><td class="right"></td><td><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></td></tr>
+<tr><td><a href="NuGetUtils.MSBuild.Exec_InspectionExecutableParameterInfo.htm">NuGetUtils.MSBuild.Exec.InspectionExecutableParameterInfo</a></td><td class="right">13</td><td class="right">1</td><td class="right">14</td><td class="right">341</td><td title="LineCoverage" class="right">92.8%</td><td><table class="coverage"><tr><td class="green covered93">&nbsp;</td><td class="red covered7">&nbsp;</td></tr></table></td><td class="right"></td><td><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></td></tr>
 <tr><td><a href="NuGetUtils.MSBuild.Exec_InspectionKey.htm">NuGetUtils.MSBuild.Exec.InspectionKey</a></td><td class="right">24</td><td class="right">0</td><td class="right">24</td><td class="right">341</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right"></td><td><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></td></tr>
 <tr><td><a href="NuGetUtils.MSBuild.Exec_InspectionValue.htm">NuGetUtils.MSBuild.Exec.InspectionValue</a></td><td class="right">14</td><td class="right">1</td><td class="right">15</td><td class="right">341</td><td title="LineCoverage" class="right">93.3%</td><td><table class="coverage"><tr><td class="green covered93">&nbsp;</td><td class="red covered7">&nbsp;</td></tr></table></td><td class="right">83.3%</td><td><table class="coverage"><tr><td class="green covered83">&nbsp;</td><td class="red covered17">&nbsp;</td></tr></table></td></tr>
 <tr><td><a href="NuGetUtils.MSBuild.Exec_NuGetExecutionCache.htm">NuGetUtils.MSBuild.Exec.NuGetExecutionCache</a></td><td class="right">105</td><td class="right">0</td><td class="right">105</td><td class="right">341</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td></tr>
@@ -170,9 +170,9 @@
 <tr><td><a href="NuGetUtils.MSBuild.Exec_NuGetUtilsExtensions.htm">NuGetUtils.MSBuild.Exec.NuGetUtilsExtensions</a></td><td class="right">3</td><td class="right">29</td><td class="right">32</td><td class="right">698</td><td title="LineCoverage" class="right">9.3%</td><td><table class="coverage"><tr><td class="green covered9">&nbsp;</td><td class="red covered91">&nbsp;</td></tr></table></td><td class="right">12.5%</td><td><table class="coverage"><tr><td class="green covered12">&nbsp;</td><td class="red covered88">&nbsp;</td></tr></table></td></tr>
 <tr><td><a href="NuGetUtils.MSBuild.Exec_ProcessMonitor.htm">NuGetUtils.MSBuild.Exec.ProcessMonitor</a></td><td class="right">39</td><td class="right">0</td><td class="right">39</td><td class="right">519</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td></tr>
 <tr><td><a href="NuGetUtils.MSBuild.Exec_ProcessMonitorWithGracefulCancelability.htm">NuGetUtils.MSBuild.Exec.ProcessMonitorWithGracefulCancelability</a></td><td class="right">73</td><td class="right">11</td><td class="right">84</td><td class="right">519</td><td title="LineCoverage" class="right">86.9%</td><td><table class="coverage"><tr><td class="green covered87">&nbsp;</td><td class="red covered13">&nbsp;</td></tr></table></td><td class="right">91.8%</td><td><table class="coverage"><tr><td class="green covered92">&nbsp;</td><td class="red covered8">&nbsp;</td></tr></table></td></tr>
-<tr><td><a href="NuGetUtils.MSBuild.Exec_TaskProxy.htm">NuGetUtils.MSBuild.Exec.TaskProxy</a></td><td class="right">96</td><td class="right">9</td><td class="right">105</td><td class="right">207</td><td title="LineCoverage" class="right">91.4%</td><td><table class="coverage"><tr><td class="green covered91">&nbsp;</td><td class="red covered9">&nbsp;</td></tr></table></td><td class="right">88.6%</td><td><table class="coverage"><tr><td class="green covered89">&nbsp;</td><td class="red covered11">&nbsp;</td></tr></table></td></tr>
-<tr><td><a href="NuGetUtils.MSBuild.Exec_TaskTypeGenerator.htm">NuGetUtils.MSBuild.Exec.TaskTypeGenerator</a></td><td class="right">154</td><td class="right">8</td><td class="right">162</td><td class="right">288</td><td title="LineCoverage" class="right">95%</td><td><table class="coverage"><tr><td class="green covered95">&nbsp;</td><td class="red covered5">&nbsp;</td></tr></table></td><td class="right">81.8%</td><td><table class="coverage"><tr><td class="green covered82">&nbsp;</td><td class="red covered18">&nbsp;</td></tr></table></td></tr>
-<tr><td><a href="NuGetUtils.MSBuild.Exec_TypeGenerationResult.htm">NuGetUtils.MSBuild.Exec.TypeGenerationResult</a></td><td class="right">9</td><td class="right">0</td><td class="right">9</td><td class="right">288</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right"></td><td><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></td></tr>
+<tr><td><a href="NuGetUtils.MSBuild.Exec_TaskProxy.htm">NuGetUtils.MSBuild.Exec.TaskProxy</a></td><td class="right">110</td><td class="right">9</td><td class="right">119</td><td class="right">223</td><td title="LineCoverage" class="right">92.4%</td><td><table class="coverage"><tr><td class="green covered92">&nbsp;</td><td class="red covered8">&nbsp;</td></tr></table></td><td class="right">75%</td><td><table class="coverage"><tr><td class="green covered75">&nbsp;</td><td class="red covered25">&nbsp;</td></tr></table></td></tr>
+<tr><td><a href="NuGetUtils.MSBuild.Exec_TaskTypeGenerator.htm">NuGetUtils.MSBuild.Exec.TaskTypeGenerator</a></td><td class="right">154</td><td class="right">7</td><td class="right">161</td><td class="right">285</td><td title="LineCoverage" class="right">95.6%</td><td><table class="coverage"><tr><td class="green covered96">&nbsp;</td><td class="red covered4">&nbsp;</td></tr></table></td><td class="right">80.9%</td><td><table class="coverage"><tr><td class="green covered81">&nbsp;</td><td class="red covered19">&nbsp;</td></tr></table></td></tr>
+<tr><td><a href="NuGetUtils.MSBuild.Exec_TypeGenerationResult.htm">NuGetUtils.MSBuild.Exec.TypeGenerationResult</a></td><td class="right">9</td><td class="right">0</td><td class="right">9</td><td class="right">285</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right"></td><td><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></td></tr>
 <tr><th>NuGetUtils.MSBuild.Exec.Common</th><th class="right">48</th><th class="right">0</th><th class="right">48</th><th class="right">806</th><th title="LineCoverage" class="right">100%</th><th><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></th><th class="right">50%</th><th><table class="coverage"><tr><td class="green covered50">&nbsp;</td><td class="red covered50">&nbsp;</td></tr></table></th></tr>
 <tr><td><a href="NuGetUtils.MSBuild.Exec.Common_E_NuGetUtils.htm">E_NuGetUtils</a></td><td class="right">6</td><td class="right">0</td><td class="right">6</td><td class="right">263</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right">50%</td><td><table class="coverage"><tr><td class="green covered50">&nbsp;</td><td class="red covered50">&nbsp;</td></tr></table></td></tr>
 <tr><td><a href="NuGetUtils.MSBuild.Exec.Common_DefaultNuGetExecutionConfiguration_1.htm">NuGetUtils.MSBuild.Exec.Common.DefaultNuGetExecutionConfiguration`1</a></td><td class="right">18</td><td class="right">0</td><td class="right">18</td><td class="right">115</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right"></td><td><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></td></tr>
@@ -196,6 +196,6 @@
 <tr><td><a href="NuGetUtils.MSBuild.Exec.Perform_Program.htm">NuGetUtils.MSBuild.Exec.Perform.Program</a></td><td class="right">1</td><td class="right">0</td><td class="right">1</td><td class="right">91</td><td title="LineCoverage" class="right">100%</td><td><table class="coverage"><tr><td class="green covered100">&nbsp;</td></tr></table></td><td class="right"></td><td><table class="coverage"><tr><td class="gray covered100">&nbsp;</td></tr></table></td></tr>
 </tbody>
 </table>
-<div class="footer">Generated by: ReportGenerator 4.0.4.0<br />3/6/19 - 8:13:54 PM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="http://www.palmmedia.de">www.palmmedia.de</a></div></div></div>
+<div class="footer">Generated by: ReportGenerator 4.0.4.0<br />3/7/19 - 10:51:10 PM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="http://www.palmmedia.de">www.palmmedia.de</a></div></div></div>
 <script type="text/javascript" src="combined.js"></script>
 </body></html>
