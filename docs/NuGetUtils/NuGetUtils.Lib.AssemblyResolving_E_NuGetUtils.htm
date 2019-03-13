@@ -22,18 +22,18 @@
 <tr><th>Coverable lines:</th><td>58</td></tr>
 <tr><th>Total lines:</th><td>1552</td></tr>
 <tr><th>Line coverage:</th><td>53.4%</td></tr>
-<tr><th>Branch coverage:</th><td>28.1%</td></tr>
-<tr><th>Tag:</th><td>a333f56c4303090131fdba03f6dd90365584532a</td></tr>
+<tr><th>Branch coverage:</th><td>30.3%</td></tr>
+<tr><th>Tag:</th><td>a466d2084118d26ace7a3ba36cbc20f87ce699fe</td></tr>
 </tbody>
 </table>
 <h1>Coverage History</h1>
-<div id="mainHistoryChart" class="ct-chart" data-history-chart data-data="historyChartData5fa5ebf58d204a8a97c313dfd283a0c5"></div>
+<div id="mainHistoryChart" class="ct-chart" data-history-chart data-data="historyChartData2f6068bc77ab42d88d0d1940df2f4f2b"></div>
 <h1>Metrics</h1>
 <table class="overview table-fixed">
 <thead><tr><th>Method</th><th>Cyclomatic complexity <a href="https://en.wikipedia.org/wiki/Cyclomatic_complexity"><i class="icon-info-circled"></i></a></th><th>NPath complexity <a href="https://modess.io/npath-complexity-cyclomatic-complexity-explained"><i class="icon-info-circled"></i></a></th><th>Sequence coverage <a href="https://en.wikipedia.org/wiki/Code_coverage"><i class="icon-info-circled"></i></a></th><th>Branch coverage <a href="https://en.wikipedia.org/wiki/Code_coverage"><i class="icon-info-circled"></i></a></th></tr></thead>
 <tbody>
 <tr><td title="System.Collections.Generic.IDictionary`2&lt;System.String,NuGetUtils.Lib.AssemblyResolving.ResolvedPackageInfo&gt; E_NuGetUtils::ExtractAssemblyPaths(NuGetUtils.Lib.Restore.BoundRestoreCommandUser,NuGet.ProjectModel.LockFile,NuGetUtils.Lib.Common.GetFileItemsDelegate)"><a href="#file0_line1354" data-ng-click="navigateToHash('#file0_line1354')">ExtractAssemblyPaths(...)</a></td><td>2</td><td>0</td><td>1%</td><td>1%</td></tr>
-<tr><td title="LoadNuGetAssembly()"><a href="#file0_line1384" data-ng-click="navigateToHash('#file0_line1384')">LoadNuGetAssembly()</a></td><td>2</td><td>0</td><td>1%</td><td>1%</td></tr>
+<tr><td title="LoadNuGetAssembly()"><a href="#file0_line1384" data-ng-click="navigateToHash('#file0_line1384')">LoadNuGetAssembly()</a></td><td>3</td><td>0</td><td>1%</td><td>1%</td></tr>
 <tr><td title="System.Threading.Tasks.Task`1&lt;System.Reflection.Assembly[]&gt; E_NuGetUtils::LoadNuGetAssemblies(NuGetUtils.Lib.AssemblyResolving.NuGetAssemblyResolver,System.Threading.CancellationToken,System.ValueTuple`3&lt;System.String,System.String,System.String&gt;[])"><a href="#file0_line1401" data-ng-click="navigateToHash('#file0_line1401')">LoadNuGetAssemblies(...)</a></td><td>8</td><td>0</td><td>0%</td><td>0%</td></tr>
 <tr><td title="System.Type E_NuGetUtils::TryLoadTypeFromPreviouslyLoadedAssemblies(NuGetUtils.Lib.AssemblyResolving.NuGetAssemblyResolver,System.String)"><a href="#file0_line1418" data-ng-click="navigateToHash('#file0_line1418')">TryLoadTypeFromPreviouslyLoadedAssemblies(...)</a></td><td>10</td><td>0</td><td>0%</td><td>0%</td></tr>
 <tr><td title="System.Func`2&lt;System.String,System.Reflection.Assembly&gt; E_NuGetUtils::CreateAssemblyByPathResolverCallback(NuGetUtils.Lib.AssemblyResolving.NuGetAssemblyResolver)"><a href="#file0_line1461" data-ng-click="navigateToHash('#file0_line1461')">CreateAssemblyByPathResolverCallback(...)</a></td><td>1</td><td>0</td><td>1%</td><td>0%</td></tr>
@@ -1433,7 +1433,7 @@
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line1381"></a><code>1381</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;{</code></td></tr>
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line1382"></a><code>1382</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Don&#39;t&nbsp;use&nbsp;ArgumentValidator,&nbsp;as&nbsp;this&nbsp;may&nbsp;be&nbsp;executing&nbsp;in&nbsp;other&nbsp;app&nbsp;domain</code></td></tr>
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line1383"></a><code>1383</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;(Same&nbsp;reason&nbsp;we&nbsp;don&#39;t&nbsp;use&nbsp;value&nbsp;tuples&nbsp;here)</code></td></tr>
-<tr title="2 of 2 branches are covered" data-coverage="{'AllTestMethods': {'VC': '3', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">3</td><td class="rightmargin right"><a id="file0_line1384"></a><code>1384</code></td><td class="percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(&nbsp;await&nbsp;(&nbsp;resolver&nbsp;??&nbsp;throw&nbsp;new&nbsp;NullReferenceException()&nbsp;).LoadNuGetAssemblies(&nbsp;new[]&nbsp;{&nbsp;packageID&nbsp;},&nbsp;new[]&nbsp;</code></td></tr>
+<tr title="3 of 3 branches are covered" data-coverage="{'AllTestMethods': {'VC': '3', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">3</td><td class="rightmargin right"><a id="file0_line1384"></a><code>1384</code></td><td class="percentagebar100"><i class="icon-fork"></i></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(&nbsp;await&nbsp;(&nbsp;resolver&nbsp;??&nbsp;throw&nbsp;new&nbsp;NullReferenceException()&nbsp;).LoadNuGetAssemblies(&nbsp;new[]&nbsp;{&nbsp;packageID&nbsp;},&nbsp;new[]&nbsp;</code></td></tr>
 <tr data-coverage="{'AllTestMethods': {'VC': '3', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">3</td><td class="rightmargin right"><a id="file0_line1385"></a><code>1385</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;}</code></td></tr>
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line1386"></a><code>1386</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line1387"></a><code>1387</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;</code></td></tr>
@@ -1604,7 +1604,7 @@
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line1552"></a><code>1552</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
 </tbody>
 </table>
-<div class="footer">Generated by: ReportGenerator 4.0.4.0<br />3/13/19 - 9:46:35 PM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="http://www.palmmedia.de">www.palmmedia.de</a></div></div>
+<div class="footer">Generated by: ReportGenerator 4.0.4.0<br />3/13/19 - 10:02:25 PM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="http://www.palmmedia.de">www.palmmedia.de</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
